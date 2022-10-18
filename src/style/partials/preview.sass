@@ -1,0 +1,227 @@
+.preview
+	padding-bottom: 50px
+	.container
+		width: 1640px
+		+r(1720)
+			width: 1410px
+		+r(1440)
+			width: 1250px
+		+r(1300)
+			width: 1120px
+		+r(1140)
+			width: 1010px
+		+r(1024)
+			width: 100%
+			padding: 0
+	&__video
+		width: 100%
+		height: 923px
+		position: relative
+		border-radius: 40px
+		background: linear-gradient(317.8deg, rgba(47, 40, 124, 0) 46%, rgba(101, 39, 117, 0.6) 84.98%), linear-gradient(0deg, rgba(23, 41, 39, 0.3), rgba(23, 41, 39, 0.3))
+		overflow: hidden
+		+r(1720)
+			height: 794px
+		+r(1440)
+			height: 704px
+		+r(1300)
+			height: 630px
+		+r(1140)
+			height: 568px
+		+r(1024)
+			height: 538px
+		+r(890)
+			height: 460px
+		+r(595)
+			height: 370px
+		+r(480)
+			border-radius: 20px
+			height: 330px
+	&__title
+		max-width: 550px
+		width: 100%
+		position: absolute
+		top: 97px
+		left: 60px
+		color: white
+		z-index: 1
+		+r(1720)
+			top: 60px
+		+r(1440)
+			max-width: 440px
+			top: 40px
+			left: 40px
+		+r(1024)
+			left: 30px
+		+r(890)
+			max-width: 400px
+		+r(480)
+			left: 20px
+			top: 30px
+			max-width: 280px
+			line-height: 1
+	&__bottom
+		margin-top: -60px
+		padding: 130px 60px 50px
+		border-radius: 40px
+		background: $pink
+		display: flex
+		align-items: center
+		+r(1440)
+			padding: 95px 40px 30px
+		+r(1140)
+			padding: 85px 30px 20px
+		+r(890)
+			display: block
+		+r(480)
+			border-radius: 20px
+			padding-left: 20px
+			padding-right: 20px
+			padding-bottom: 30px
+	&__subtitle
+		font-family: $fontBebas
+		color: $garkGreen
+		font-size: 40px
+		margin-right: 40px
+		max-width: 260px
+		width: 100%
+		+r(1720)
+			font-size: 38px
+			margin-right: 30px
+			max-width: 250px
+		+r(1440)
+			font-size: 36px
+			max-width: 230px
+		+r(1140)
+			font-size: 32px
+			max-width: 200px
+		+r(890)
+			max-width: 100%
+			margin-right: 0
+			margin-bottom: 20px
+		+r(480)
+			font-size: 24px
+			line-height: 1
+			margin-bottom: 15px
+	&__list
+		display: flex
+		+r(595)
+			display: block
+	&__item
+		+nlt
+			margin-right: 40px
+		+r(1440)
+			+nlt
+				margin-right: 30px
+		+r(595)
+			+nlt
+				margin-right: 0
+				padding-bottom: 13px
+				margin-bottom: 13px
+				border-bottom: 1px solid transparentize($garkGreen, .8)
+
+
+.list-preview
+	&__text
+		display: flex
+		align-items: center
+		color: $garkGreen
+		+r(1440)
+			max-width: 270px
+		+r(1140)
+			max-width: 100%
+			width: auto
+	.fico
+		font-size: 58px
+		margin-right: 60px
+		+r(1720)
+			font-size: 55px
+			margin-right: 50px
+		+r(1440)
+			font-size: 45px
+			margin-right: 30px
+		+r(1140)
+			font-size: 38px
+		+r(768)
+			font-size: 30px
+			margin-right: 15px
+		+r(480)
+			font-size: 22px
+	span
+		font-size: 24px
+		line-height: 120%
+		display: inline-block
+		+r(1720)
+			font-size: 22px
+		+r(1440)
+			font-size: 20px
+		+r(1140)
+			font-size: 18px
+		+r(768)
+			font-size: 16px
+		+r(480)
+			width: 70%
+		+r(374)
+			width: 100%
+
+
+
+.youtube
+	overflow: hidden
+	position: relative
+	cursor: pointer
+	background: $pink
+.youtube, iframe
+	width: 100%
+	height: 100%
+
+.youtube .thumb
+	bottom: 0
+	left: 0
+	position: absolute
+	right: 0
+	top: 0
+	width: 100%
+	height: 100%
+	+r(1024)
+		+object-fit(cover)
+
+.youtube .play
+	position: absolute
+	height: 96px
+	width: 96px
+	bottom: 40px
+	right: 60px
+	background: url("../img/svg/play.svg") no-repeat center top
+	&::after
+		content: 'Play Video'
+		white-space: nowrap
+		display: block
+		position: absolute
+		font-family: $fontBebas
+		left: -170px
+		top: 50%
+		transform: translateY(-50%)
+		font-size: 40px
+	+r(1440)
+		width: 90px
+		height: 90px
+		right: 40px
+		background-size: 100%
+		&::after
+			font-size: 38px
+			left: -150px
+	+r(595)
+		width: 70px
+		height: 70px
+		right: 30px
+		&::after
+			font-size: 30px
+			left: -120px
+	+r(480)
+		width: 56px
+		height: 56px
+		right: 20px
+		bottom: 20px
+		&::after
+			display: none

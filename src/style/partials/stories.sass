@@ -1,0 +1,136 @@
+.stories
+	padding-top: 130px
+	padding-bottom: 143px
+	+r(1440)
+		padding-top: 90px
+		padding-bottom: 110px
+	+r(1300)
+		padding-bottom: 90px
+	+r(768)
+		padding-top: 50px
+		padding-bottom: 60px
+	+r(480)
+		padding-top: 40px
+		padding-bottom: 50px
+	&__title
+		color: $garkGreen
+		margin-bottom: 68px
+		+r(1300)
+			margin-bottom: 45px
+		+r(768)
+			margin-bottom: 25px
+		+r(595)
+			width: 360px
+		+r(480)
+			width: 250px
+		+r(374)
+			width: 200px
+	.slick-arrow
+		top: -140px
+		&.next
+			right: 0
+		&.prev
+			right: 80px
+		+r(1440)
+			top: -130px
+			&.prev
+				right: 70px
+		+r(1300)
+			top: -95px
+			&.prev
+				right: 55px
+		+r(1024)
+			top: -44%
+		+r(768)
+			top: calc(50% - 84%)
+			&.prev
+				right: 40px
+		+r(595)
+			top: calc(50% - 72%)
+		+r(480)
+			top: -21%
+
+.story
+	display: flex !important
+	align-items: flex-end
+	+r(595)
+		display: block !important
+	&__photo
+		margin-right: 81px
+		max-width: 440px
+		width: 100%
+		+r(1720)
+			max-width: 370px
+			margin-right: 70px
+		+r(1440)
+			max-width: 340px
+			margin-right: 60px
+		+r(1300)
+			max-width: 300px
+		+r(1140)
+			max-width: 270px
+			margin-right: 50px
+		+r(1024)
+			max-width: 27%
+			min-width: 200px
+			margin-right: 3%
+		+r(595)
+			max-width: 335px
+			margin-right: 0
+			margin-bottom: 17px
+	&__name
+		color: $primary
+		font-size: 32px
+		font-weight: 500
+		margin-bottom: 32px
+		display: flex
+		align-items: baseline
+		+r(1720)
+			font-size: 28px
+		+r(1300)
+			font-size: 26px
+			margin-bottom: 20px
+		+r(1024)
+			font-size: 2.6vw
+		+r(768)
+			font-size: 24px
+		+r(480)
+			justify-content: space-between
+			margin-bottom: 16px
+	&__ico
+		margin-left: 30px
+		+r(1720)
+			width: 35px
+			margin-left: 20px
+		+r(768)
+			width: 31px
+			margin-left: 10px
+	&__text
+		color: $garkGreen
+		font-size: 40px
+		line-height: 130%
+		max-width: 870px
+		width: 100%
+		margin-bottom: -10px
+		+r(1720)
+			font-size: 36px
+			max-width: 740px
+		+r(1440)
+			font-size: 32px
+			max-width: 670px
+		+r(1300)
+			font-size: 28px
+			max-width: 600px
+			margin-bottom: 0
+		+r(1140)
+			font-size: 26px
+			max-width: 540px
+		+r(1024)
+			max-width: 85%
+			font-size: 2.4vw
+		+r(768)
+			font-size: 18px
+		+r(595)
+			font-size: 16px
+			line-height: 140%
+			color: transparentize($garkGreen, .3)

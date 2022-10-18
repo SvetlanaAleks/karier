@@ -1,0 +1,194 @@
+.menu
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	padding-top: 32px
+	z-index: 2
+	+r(1300)
+		padding-top: 25px
+	+r(480)
+		padding-top: 32px
+	&__wrapper
+		display: flex
+		+r(1300)
+			justify-content: space-between
+		+r(890)
+			align-items: center
+	&__logo
+		margin-left: -28px
+		margin-right: 110px
+		+r(1440)
+			margin-left: -15px
+			margin-right: 80px
+		+r(1300)
+			max-width: 120px
+			margin-right: 0
+		+r(1140)
+			margin-left: 0
+			max-width: 110px
+		+r(1024)
+			max-width: 100px
+		+r(890)
+			max-width: 140px
+	&__nav
+		display: flex
+		align-items: flex-end
+		.nav__item
+			+nlt
+				margin-right: 67px
+		+r(1720)
+			.nav__item
+				+nlt
+					margin-right: 45px
+		+r(1440)
+			.nav__item
+				+nlt
+					margin-right: 40px
+		+r(1300)
+			.nav__item
+				+nlt
+					margin-right: 30px
+		+r(1140)
+			.nav__item
+				+nlt
+					margin-right: 25px
+		+r(1024)
+			.nav__item
+				+nlt
+					margin-right: 20px
+		+r(890)
+			display: none
+	&__language
+		display: flex
+		align-items: flex-end
+		margin-left: auto
+		.language__link
+			+nlt
+				margin-right: 33px
+		+r(1440)
+			.language__link
+				+nlt
+					margin-right: 22px
+		+r(1300)
+			margin-left: 0
+		+r(1024)
+			.language__link
+				+nlt
+					margin-right: 15px
+		+r(890)
+			display: none
+	&__burger
+		display: none
+		+r(890)
+			display: flex
+			position: fixed
+			top: 20px
+			right: 30px
+		+r(480)
+			right: 20px
+.nav
+	&__item
+		font-size: 24px
+		transition: all .3s
+		cursor: pointer
+		border-bottom: 1px solid transparentize(#000, .999)
+		&:last-of-type
+			color: $yellow
+		&:hover
+			border-bottom: 1px solid
+		+r(1720)
+			font-size: 22px
+		+r(1440)
+			font-size: 20px
+		+r(1300)
+			font-size: 18px
+		+r(1024)
+			font-size: 16px
+		+r(890)
+			font-size: 24px
+
+.language
+	&__link
+		text-decoration: none
+		color: white
+		font-size: 24px
+		transition: all .3s
+		border-bottom: 1px solid transparentize(#000, .999)
+		&:hover
+			border-bottom: 1px solid
+		&.active
+			color: #023E37
+			pointer-events: none
+		+r(1720)
+			font-size: 22px
+		+r(1440)
+			font-size: 20px
+		+r(1300)
+			font-size: 18px
+		+r(1024)
+			font-size: 16px
+
+
+
+.burger
+	display: none
+	+r(890)
+		cursor: pointer
+		width: 56px
+		height: 56px
+		border-radius: 50%
+		background: #00665A
+		box-shadow: 0px 16px 14px rgba(0, 0, 0, 0.07)
+		display: flex
+		align-items: center
+		justify-content: center
+		&--active
+			background: none
+			box-shadow: none
+			.burger
+				&__wrap
+					width: 25px
+					height: 1px
+				&__line
+					&:nth-of-type(1), &:nth-of-type(2)
+						width: 25px
+						transform-origin: center
+					&:nth-of-type(1)
+						transform: rotate(45deg)
+					&:nth-of-type(2)
+						transform: rotate(-45deg)
+	&__wrap
+		width: 36px
+		height: 10px
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: flex-end
+	&__line
+		background: white
+		height: 2px
+		&:nth-of-type(1)
+			width: 100%
+		&:nth-of-type(2)
+			width: 65%
+
+
+//overlay
+.overlay
+	+r(890)
+		opacity: 0
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		width: 100%
+		height: 100%
+		z-index: 9
+		background: transparentize(white, .5)
+		transition: all .5s
+		pointer-events: none
+		&.active
+			opacity: 1
+			pointer-events: visible

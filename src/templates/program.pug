@@ -1,0 +1,27 @@
+- var PROGRAM = LANG.program;
+
+mixin item(photo, title, text)
+	.program-item
+		.program-item__photo-wrap
+			img.program-item__photo(src=photo, alt="")
+		.program-item__wrap
+			h4.program-item__title!= title
+			p.program-item__text!= text
+
+-
+	const programPhoto = [
+		'../img/svg/program_1.svg',
+		'../img/svg/program_2.svg',
+		'../img/svg/program_3.svg',
+		'../img/svg/program_4.svg',
+		'../img/svg/program_5.svg'
+	];
+
+
+section.program#program
+	.container
+		h2.program__title.title!= PROGRAM.title
+		.program__list
+			each item, key in PROGRAM.list
+				+item(programPhoto[key], item.title, item.text)
+

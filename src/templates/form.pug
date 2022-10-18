@@ -1,0 +1,14 @@
+- var FORM = LANG.form;
+
+form.form(action="/", method="post")
+	h4.form__title!= FORM.title
+	.form__inputs
+		input.form__input.input(type="text", name="name" placeholder=FORM.inputName required)
+		input.form__input.input(type="tel", name="phone" placeholder=FORM.inputPhone required)
+		input.form__input.input(type="email", name="email" placeholder=FORM.inputEmail required)
+	button.form__btn.btn!= FORM.button
+	.form__checkbox.checkbox
+		label.checkbox__label!= FORM.checkbox
+			input.checkbox__input(type="checkbox" required)
+			span.checkbox__checkmark
+				i.fico.fico-check

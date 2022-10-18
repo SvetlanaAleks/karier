@@ -1,0 +1,278 @@
+{
+  "locale": "id",
+  "menu": {
+    "nav": [
+      {
+        "target": "#program",
+        "text": "Tentang kursus"
+      },
+      {
+        "target": "#reasons",
+        "text": "Kemungkinan karir"
+      },
+      {
+        "target": "#structure",
+        "text": "Struktur kursus"
+      },
+      {
+        "target": "#tutors",
+        "text": "Mentor"
+      },
+      {
+        "target": "#registration",
+        "text": "Daftar"
+      }
+    ]
+  },
+  "promo": {
+    "label": "Kursus 6 bulan",
+    "title": "Data Analyst",
+    "desc": "Akan meningkatkan penghasilanmu hingga <span class=\"yellow\">1500&nbsp;USD</span> per bulan!",
+    "list": ["Jaminan pekerjaan", "Beginner-friendly"],
+    "btn": "Get the consultation"
+  },
+  "form": {
+    "title": "Dapatkan konsultasi tentang kursus",
+    "inputName": "Nama",
+    "inputPhone": "Telepon",
+    "inputEmail": "E-mail",
+    "button": "Tinggalkan konsultasi",
+    "button_2": "Kirim permintaan",
+    "button_3": "Register for the course",
+    "checkbox": "Dengan mengklik kotak centang, Anda menyetujui kebijakan privasi, persyaratan penggunaan, dan perjanjian pelatihan kami",
+    "desc": "Konsultan kami akan menjawab semua pertanyaanmu",
+    "timer": "Tawaran <br> berakhir dalam:"
+  },
+  "benefits": [
+    "30% metodologi teoretis dan 70% latihan praktik",
+    "Tugas yang sangat praktis berdasarkan situasi bisnis nyata",
+    "Tutor dari perusahaan TOP pada marketnya",
+    "Bantuan pekerjaan setelah lulus"
+  ],
+  "reasons": {
+    "title_1": "TOP-5 reasons to come to the profession of Data Analyst",
+    "list_1": [
+      "High salaries (up to 3000 USD per month)",
+      "High and rising demand on the market",
+      "Possibility of remote work",
+      "Big potential of further career growth",
+      "Minimum of previous experience required"
+    ],
+    "title_2": "What does a Data Analyst do?",
+    "list_2": [
+      "Collecting, mining, and analyzing sales and market information",
+      "Assessing marketing effectiveness",
+      "Evaluating consumer purchasing habits and patterns",
+      "Evaluating consumer purchasing habits and patterns",
+      "Designing data collection and evaluation tools",
+      "Creating projections and reports based on their findings"
+    ],
+    "label": "The Bureau of Labor and Statistics (U.S.) expects the number of hired Data Analysts to grow by 25% during the decade from 2020 to 2030."
+  },
+  "preview": {
+    "title": "Explanation of the Data Analyst position",
+    "button": "Play Video",
+    "subtitle": "This course is for those who want:",
+    "item_1": "Get into new highly paid profession",
+    "item_2": "Work remotely with top world companies",
+    "item_3": "Get promotion on your actual job position"
+  },
+  "program": {
+    "title": "In this course you&nbsp;will",
+    "list": [
+      {
+        "title": "Learn all of the skills",
+        "text": "And tools, and processes you need to become a data analyst"
+      },
+      {
+        "title": "Work 1:1 with an expert mentor and tutor",
+        "text": "Who will give personalized feedback and insight into the daily life of a data analyst"
+      },
+      {
+        "title": "Receive tailored coaching",
+        "text": "From our Career Support Team to ensure you stand out at interviews"
+      },
+      {
+        "title": "Build an impressive portfolio",
+        "text": "Out of the real-world projects you complete"
+      },
+      {
+        "title": "Land a job as a data analyst",
+        "text": "Within 180 days of graduating from the program — or your money back"
+      }
+    ]
+  },
+  "structure": {
+    "title": "Course structure",
+    "questionArray": [
+      {
+        "ttl": "1/ Introduction to data analytics",
+        "list": [
+          "What is data analytics?",
+          "Difference between data analytics and data science",
+          "Different types of data analysis",
+          "Some data analytics real-world case studies",
+          "What does a data analyst do?",
+          "What is the typical process that a data analyst will follow?",
+          "Tools and techniques do data analysts use"
+        ]
+      },
+      {
+        "ttl": "2/ Statistics for data analysis",
+        "list": [
+          "Statistics from basics",
+          "Descriptive Statistics - Mean, Mode, Median, Standard Deviation, Variance and Interquartile Range",
+          "Probability Distributions - Normal, Binomial and Poisson",
+          "Statistical tests"
+        ]
+      },
+      {
+        "ttl": "3/ Data analysis in Excel",
+        "list": [
+          "Preparation of data and data cleaning",
+          "Creating flexible data aggregations using pivot tables",
+          "Representing data visually using pivot charts",
+          "Calculating margins and other common ratios using calculation on pivot table",
+          "Filtering data using slicers in multiple pivot tables",
+          "Creating aggregate reports using formula based techniques"
+        ]
+      },
+      {
+        "ttl": "4/ Working with Google Data Studio, Power BI and Tableau",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+      },
+      {
+        "ttl": "5/ SQL and working with databases",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+      },
+      {
+        "ttl": "6/ Dashboards and key business metrics",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+      },
+      {
+        "ttl": "7/ Practical application of data analytics to marketing and sales",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+      },
+      {
+        "ttl": "8/ Automation of analytics using Python",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+      },
+      {
+        "ttl": "9/ Career in data analytics",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+      }
+    ],
+    "label": "You will not find a faster way to get to the profession of Data Analyst",
+    "button": "Sign up for the course"
+  },
+  "tutors": {
+    "title": "Meet your tutors",
+    "sliders": [
+      {
+        "name": "Lukmanto Fengge",
+        "post": "Senior Data Analyst at Accubits Technologies Inc",
+        "text": "15 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "name": "Saif Pelamonia",
+        "post": "Data Scientist at Ice House",
+        "text": "8 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Slamet Tirta Agusalim",
+        "post": "Guru of data analytics at DOXA Digital",
+        "text": "10 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Lukmanto Fengge",
+        "post": "Senior Data Analyst at Accubits Technologies Inc",
+        "text": "15 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+      },
+      {
+        "name": "Saif Pelamonia",
+        "post": "Data Scientist at Ice House",
+        "text": "8 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Slamet Tirta Agusalim",
+        "post": "Guru of data analytics at DOXA Digital",
+        "text": "10 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ]
+  },
+  "support": {
+    "title": "Career Support",
+    "desc": "Your personal career manager will guide you through the employment process right until your job offer",
+    "list": [
+      "Help in creation of CV and motivation letter",
+      "Review of LinkedIn and other social networks account",
+      "Navigation through the list of potential employers",
+      "Preparation for the interview with practical simulation (mock interview)",
+      "Vacancies from our partners"
+    ]
+  },
+  "guarantees": {
+    "title": "Job Guaranteed",
+    "desc": "As our team works in tight cooperation with HR-departments of top companies on the market, our course is built in such a way that it assures you to correspond to all requirements of potential employers after graduation.",
+    "subtitle": "We guarantee that you will get a job after successful completion of this course in case if you:",
+    "list": [
+      "Pass all modules according to the course timeline",
+      "Complete all tasks before their deadlines",
+      "Successfully pass the final attestation",
+      "Follow the guidelines of the Career Center"
+    ]
+  },
+  "stories": {
+    "title": "Our students success stories",
+    "slider": [
+      {
+        "name": "Zebadiah Dongoran",
+        "text": "After completing this course, I successfully got a job as a data analyst at Biwabits. The information in the course is well structured, practical tasks help to quickly gain the necessary skills."
+      },
+      {
+        "name": "Zebadiah Dongoran",
+        "text": "After completing this course, I successfully got a job as a data analyst at Biwabits. The information in the course is well structured, practical tasks help to quickly gain the necessary skills."
+      },
+      {
+        "name": "Zebadiah Dongoran",
+        "text": "After completing this course, I successfully got a job as a data analyst at Biwabits. The information in the course is well structured, practical tasks help to quickly gain the necessary skills."
+      }
+    ]
+  },
+  "registration": {
+    "title": "Start your career in data analytics right now",
+    "label": "Early birds offer:",
+    "date1": "Start: <br> October 20",
+    "date2": "Duration: <br> 6 month"
+  },
+  "faq": {
+    "title": "frequently asked&nbsp;questions",
+    "questionArray": [
+      {
+        "ttl": "Is the program 100% online?",
+        "text": "Yes, the program is entirely online, so you can study when and wherever you’d like. At the same time, the program is filled with a lot of interaction with your teacher and other students, so you definitely won't feel lonely."
+      },
+      {
+        "ttl": "Can I study only one module that I am most interested in?",
+        "text": "The course is a complete system, specially designed to become a highly professional data analyst. Viewing the course in parts will not give the desired effect, so this is not possible."
+      },
+      {
+        "ttl": "Are there some requirements for the job guarantee?",
+        "text": "There are a number of conditions that graduates must meet in order to receive a job guarantee. You must complete 100% of the course and complete all assignments, complete the free Job Ready course, follow the recommendations of career counselors, and submit at least 5 job requests per week during 6 months."
+      },
+      {
+        "ttl": "How many hours per week do I need to work on this course?",
+        "text": "Typically, the learning process and assignments take from 4 to 10 hours a week."
+      }
+    ]
+  },
+  "footer": {
+    "text_1": "Indonesian Education Corp.",
+    "text_2": "Lantai 2 Menara Batavia, Jl. K.H. Mas Mansyur No.126, <br> Kota Jakarta Pusat, Banten 10220",
+    "label_contact_1": "Students support: ",
+    "label_contact_2": "For more information about the courses:",
+    "privacy_link_1": "Privacy Policy",
+    "privacy_link_2": "Terms of use",
+    "privacy_link_3": "Training agreement"
+  }
+}

@@ -1,0 +1,18 @@
+- var MENU = LANG.menu;
+include nav
+include menu-mob
+
+mixin menu(page)
+	+menu-mob(page)
+	.menu
+		.container
+			.menu__wrapper
+				img.menu__logo(src="img/svg/logo.svg", alt="Karier")
+				+nav(MENU.nav).menu__nav
+				.menu__language.language
+					a.language__link.active.js-language(href=url('en', `/${page}.html`), data-lang="en") En
+					a.language__link.js-language(href=url('id', `/${page}.html`), data-lang="id") Id
+				.menu__burger.burger.js-burger(data-target="#js-mobile-menu")
+					.burger__wrap
+						.burger__line
+						.burger__line

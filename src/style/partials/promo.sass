@@ -1,0 +1,179 @@
+.promo
+	.container
+		padding-top: 195px
+		padding-bottom: 95px
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			bottom: 0
+			top: 0
+			left: -60px
+			right: -60px
+			border-bottom-right-radius: 40px
+			border-bottom-left-radius: 40px
+			background: $primary url('../img/svg/promo_grid.svg') no-repeat center bottom
+			pointer-events: none
+			z-index: -1
+		+r(1440)
+			padding-top: 165px
+			&::before
+				left: -40px
+				right: -40px
+		+r(1300)
+			padding-top: 140px
+			padding-bottom: 75px
+			&::before
+				left: -30px
+				right: -30px
+				background-size: 1220px
+		+r(1024)
+			&::before
+				left: 0
+				right: 0
+		+r(890)
+			padding-top: 120px
+			padding-bottom: 65px
+			&::before
+				background-size: 910px
+		+r(768)
+			padding-bottom: 40px
+		+r(480)
+			padding-top: 140px
+			&::before
+				border-bottom-right-radius: 20px
+				border-bottom-left-radius: 20px
+				background-size: 1730px
+				background-position-x: calc(50% - -100px)
+	&__wrapper
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+		+r(1024)
+			align-items: inherit
+		+r(768)
+			display: block
+	&__info
+		max-width: 920px
+		width: 100%
+		padding-top: 19px
+		+r(1720)
+			max-width: 770px
+		+r(1440)
+			max-width: 700px
+		+r(1300)
+			max-width: 600px
+		+r(1140)
+			max-width: 540px
+		+r(1024)
+			max-width: 54%
+			display: flex
+			flex-direction: column
+		+r(768)
+			display: block
+			max-width: 100%
+			margin-bottom: 30px
+		+r(480)
+			padding-top: 0
+			margin-bottom: 44px
+	&__label
+		font-weight: 500
+		font-size: 30px
+		line-height: 120%
+		margin-bottom: 56px
+		display: inline-block
+		margin-left: 6px
+		+r(1720)
+			font-size: 28px
+			margin-bottom: 50px
+		+r(1440)
+			font-size: 26px
+			margin-left: 0
+			margin-bottom: 40px
+		+r(1300)
+			font-size: 24px
+			margin-bottom: 30px
+		+r(1024)
+			font-size: 2.5vw
+			margin-bottom: 4%
+		+r(768)
+			font-size: 17px
+		+r(480)
+			margin-bottom: 25px
+	&__title
+		margin-bottom: 24px
+		+r(1300)
+			margin-bottom: 15px
+		+r(480)
+			margin-bottom: 24px
+	&__desc
+		max-width: 650px
+		width: 100%
+		margin-bottom: 144px
+		font-weight: 500
+		font-size: 56px
+		line-height: 120%
+		+r(1720)
+			font-size: 52px
+		+r(1440)
+			font-size: 46px
+			max-width: 570px
+			margin-bottom: 155px
+		+r(1300)
+			font-size: 40px
+			max-width: 530px
+			margin-bottom: 150px
+		+r(1140)
+			font-size: 36px
+			max-width: 480px
+			margin-bottom: 160px
+		+r(1024)
+			font-size: 3.5vw
+			max-width: 84%
+			margin-bottom: 145px
+		+r(890)
+			margin-bottom: 42px
+		+r(768)
+			font-size: 26px
+		+r(480)
+			max-width: 90%
+	&__list
+		display: flex
+		.list__item
+			+nlt
+				margin-right: 58px
+		+r(1024)
+			margin-top: auto
+			.list__item
+				+nlt
+					margin-right: 40px
+		+r(480)
+			display: block
+			.list__item
+				+nlt
+					margin-right: 0
+					margin-bottom: 10px
+	&__form
+		max-width: 520px
+		width: 100%
+		+r(1720)
+			max-width: 440px
+		+r(1440)
+			max-width: 420px
+		+r(1140)
+			max-width: 380px
+		+r(1024)
+			max-width: 43%
+		+r(768)
+			display: none
+	&__btn
+		display: none
+		+r(768)
+			display: block
+			max-width: 400px
+			width: 100%
+			margin: 0 auto
+		+r(480)
+			max-width: 100%
+			min-height: 63px

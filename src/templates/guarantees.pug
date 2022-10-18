@@ -1,0 +1,13 @@
+- var GUARANTEES = LANG.guarantees;
+include ../templates/mixins/list.pug
+
+section.guarantees
+	.container
+		.guarantees__wrapper
+			.guarantees__left
+				h2.guarantees__title.title!= GUARANTEES.title
+					i.fico.fico-check
+				p.guarantees__desc!= GUARANTEES.desc
+			.guarantees__right
+				p.guarantees__subtitle!= GUARANTEES.subtitle
+				+list(GUARANTEES.list).guarantees__list.list--pink

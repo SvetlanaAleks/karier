@@ -1,0 +1,58 @@
+.faq
+	padding-top: 130px
+	padding-bottom: 120px
+	+r(1440)
+		padding: 100px 0
+	+r(1300)
+		padding: 80px 0
+	+r(768)
+		padding: 60px 0
+	+r(480)
+		padding-top: 40px
+		padding-bottom: 40px
+	&__wrapper
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+		+r(768)
+			display: block
+	&__title
+		max-width: 480px
+		width: 100%
+		margin-right: 40px
+		color: $garkGreen
+		+r(1720)
+			max-width: 410px
+			margin-right: 30px
+			font-size: 72px
+		+r(1440)
+			max-width: 370px
+			font-size: 66px
+		+r(1300)
+			max-width: 330px
+			font-size: 55px
+		+r(1140)
+			max-width: 300px
+			margin-right: 20px
+			font-size: 50px
+		+r(1024)
+			max-width: 30%
+			font-size: 4.5vw
+		+r(768)
+			max-width: 100%
+			margin-bottom: 16px
+			font-size: 40px
+		+r(480)
+			line-height: 1
+	&__list
+		flex: 1
+		.question__info
+			padding-left: 0
+			max-width: 870px
+			width: 100%
+			+r(1720)
+				max-width: 740px
+			+r(1024)
+				max-width: 93%
+		+r(1024)
+			margin-top: -10px

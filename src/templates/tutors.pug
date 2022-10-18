@@ -1,0 +1,35 @@
+- var TUTORS = LANG.tutors;
+
+mixin tutor(photo, name, post, text, logo)
+	.tutor
+		img.tutor__img(src=photo, alt="")
+		p.tutor__name!= name
+		p.tutor__post!= post
+		p.tutor__text!= text
+		img.tutor__logo(src=logo, alt="")
+
+
+-
+	const photos = [
+		'img/tutor_1.jpg',
+		'img/tutor_2.jpg',
+		'img/tutor_3.jpg',
+		'img/tutor_1.jpg',
+		'img/tutor_2.jpg',
+		'img/tutor_3.jpg'
+	];
+	const logos = [
+		'img/tutor_logo_1.png',
+		'img/tutor_logo_2.png',
+		'img/tutor_logo_3.png',
+		'img/tutor_logo_1.png',
+		'img/tutor_logo_2.png',
+		'img/tutor_logo_3.png',
+	];
+
+section.tutors#tutors
+	.container
+		h2.tutors__title.title.title--med!= TUTORS.title
+	.tutors__slider.js-tutors-slider
+		each tutor, key in TUTORS.sliders
+			+tutor(photos[key], tutor.name, tutor.post, tutor.text, logos[key])

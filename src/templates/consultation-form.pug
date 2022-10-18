@@ -1,0 +1,20 @@
+- var FORM = LANG.form;
+
+section.consultation
+	.container
+		.consultation__wrapper
+			.consultation__top
+				h2.consultation__title.title!= FORM.title
+				p.consultation__desc!= FORM.desc
+			form.form-consultation(action="/" method="post")
+				.form-consultation__top
+					.form-consultation__inputs
+						input.form-consultation__input.input(type="text", name="name" placeholder=FORM.inputName required)
+						input.form-consultation__input.input(type="tel", name="phone" placeholder=FORM.inputPhone required)
+						input.form-consultation__input.input(type="email", name="email" placeholder=FORM.inputEmail required)
+					button.form-consultation__btn.btn!= FORM.button_2
+				.form-consultation__checkbox.checkbox
+					label.checkbox__label!= FORM.checkbox
+						input.checkbox__input(type="checkbox" required)
+						span.checkbox__checkmark
+							i.fico.fico-check

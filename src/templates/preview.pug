@@ -1,0 +1,19 @@
+- var PREVIEW = LANG.preview;
+
+section.preview
+	.container
+		.preview__video
+			h2.preview__title.title.title--med!= PREVIEW.title
+			.youtube(data-id="1jjo4S7-zU8")
+		.preview__bottom
+			h4.preview__subtitle!= PREVIEW.subtitle
+			ul.preview__list.list-preview
+				li.list-preview__text.preview__item
+					i.fico.fico-arrowList
+					span!= PREVIEW.item_1
+				li.list-preview__text.preview__item
+					i.fico.fico-arrowList
+					span!= PREVIEW.item_2
+				li.list-preview__text.preview__item
+					i.fico.fico-arrowList
+					span!= PREVIEW.item_3

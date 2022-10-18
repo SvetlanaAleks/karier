@@ -1,0 +1,10 @@
+- var SUPPORT = LANG.support;
+include ../templates/mixins/list.pug
+
+section.support
+	.container
+		.support__wrapper
+			.support__left
+				h2.support__title.title.title--med!= SUPPORT.title
+				p.support__desc!= SUPPORT.desc
+			+list(SUPPORT.list).support__list.list--green

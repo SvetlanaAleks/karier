@@ -1,0 +1,312 @@
+.reasons
+	padding-bottom: 40px
+	+r(480)
+		padding-bottom: 30px
+	&__wrapper
+		margin-bottom: 100px
+		+r(1300)
+			margin-bottom: 80px
+		+r(480)
+			margin-bottom: 96px
+	&__item
+		position: relative
+		user-select: none
+		padding-top: 27px
+		padding-bottom: 80px
+		margin-bottom: -60px
+		&:not(&:first-of-type)
+			padding-top: 90px
+			padding-bottom: 27px
+		&.active
+			z-index: 1
+			padding-top: 60px
+			padding-bottom: 110px
+			&:not(&:first-of-type)
+				padding-top: 60px
+				padding-bottom: 110px
+			.reasons
+				&__item
+					&--first
+						padding-bottom: 80px
+				&__title-preview
+					height: 0
+					opacity: 0
+				&__top
+					pointer-events: none
+					.fico
+						transform: rotate(180deg)
+			&::after
+				border: 2px solid white
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			right: -60px
+			left: -60px
+			top: 0
+			bottom: 0
+			border-radius: 40px
+			z-index: -1
+			pointer-events: none
+			transition: all .3s
+		&--green
+			&::after
+				background: url('../img/svg/green_bg.svg') no-repeat calc(50% - -733px) 120px
+				background-color: #E3F5F3
+				border: 2px solid #E3F5F3
+				z-index: -1
+			&:hover
+				&::after
+					background-color: #D1F5F1
+		&--pink
+			&::after
+				background: url('../img/svg/pink_bg.svg') no-repeat calc(50% - -733px) 160px
+				background-color: #FAE9FF
+				border: 2px solid #FAE9FF
+			&:hover
+				&::after
+					background-color: #F8DDFF
+		+r(1720)
+			&--green
+				&::after
+					background-position: calc(50% - -633px) 120px
+			&--pink
+				&::after
+					background-position: calc(50% - -613px) 160px
+		+r(1440)
+			&.active
+				padding-top: 40px
+				padding-bottom: 90px
+				&:not(&:first-of-type)
+					padding-top: 40px
+					padding-bottom: 90px
+			&::after
+				right: -40px
+				left: -40px
+			&--green
+				&::after
+					background-position: calc(50% - -543px) 100px
+					background-size: 190px
+			&--pink
+				&::after
+					background-position: calc(50% - -553px) 150px
+					background-size: 190px
+		+r(1300)
+			&.active
+				padding-top: 30px
+				padding-bottom: 80px
+				&:not(&:first-of-type)
+					padding-top: 30px
+					padding-bottom: 80px
+			&::after
+				right: -30px
+				left: -30px
+			&--green
+				&::after
+					background-position: calc(50% - -493px) 100px
+					background-size: 150px
+			&--pink
+				&::after
+					background-position: calc(50% - -513px) 150px
+					background-size: 150px
+		+r(1140)
+			&--green, &--pink
+				&::after
+					background-image: none
+			&--green
+				&.active
+					&::after
+						background: url('../img/svg/green_bg.svg') no-repeat
+						background-color: #E3F5F3
+						background-size: 150px
+						background-position: calc(50% - -443px) calc(100% - 90px)
+			&--pink
+				&::after
+					background: url('../img/svg/pink_bg.svg') no-repeat calc(50% - -733px) 160px
+					background-color: #FAE9FF
+					background-size: 150px
+					background-position: calc(50% - -443px) calc(100% - 90px)
+		+r(1024)
+			padding-top: 23px
+			padding-bottom: 70px
+			&:not(&:first-of-type)
+				padding-top: 74px
+				padding-bottom: 15px
+			&.active
+				z-index: 1
+				padding-top: 23px
+				padding-bottom: 60px
+				&:not(&:first-of-type)
+					padding-top: 23px
+					padding-bottom: 60px
+				.reasons
+					&__item
+						&--first
+							padding-bottom: 80px
+			&--green, &--pink
+				&.active
+					&::after
+						background-size: 130px
+						background-position: 103% calc(100% - 80px)
+		+r(768)
+			&--green, &--pink
+				&.active
+					&::after
+						background-position: 103% bottom
+						background-size: 80px
+		+r(480)
+			padding-bottom: 70px
+			&::after
+				border-radius: 20px
+			&:not(&:first-of-type)
+				padding-top: 81px
+				padding-bottom: 19px
+			&.active
+				padding-bottom: 35px
+				&:not(&:first-of-type)
+					padding-bottom: 35px
+				.reasons
+					&__item
+						&--first
+							padding-bottom: 80px
+			&--green, &--pink
+				&.active
+					&::after
+						background-position: 107% calc(100% - -30px)
+						background-size: 130px
+	&__title
+		color: $garkGreen
+		max-width: 485px
+		width: 100%
+		margin-right: 35px
+		+r(1720)
+			max-width: 410px
+			margin-right: 30px
+		+r(1440)
+			max-width: 370px
+		+r(1300)
+			max-width: 330px
+		+r(1140)
+			max-width: 300px
+		+r(1024)
+			max-width: 30%
+		+r(768)
+			max-width: 90%
+			margin-bottom: 30px
+		+r(480)
+			font-size: 32px
+			max-width: 87%
+			margin-bottom: 20px
+	&__top
+		display: flex
+		align-items: center
+		justify-content: space-between
+		color: $garkGreen
+		cursor: pointer
+		.fico
+			position: relative
+			left: 27px
+			font-size: 18px
+			transition: all .3s
+		+r(1440)
+			.fico
+				left: 0
+				font-size: 16px
+		+r(1024)
+			.fico
+				font-size: 14px
+	&__title-preview
+		font-size: 40px
+		font-family: $fontBebas
+		transition: all .2s
+		+r(1720)
+			font-size: 36px
+		+r(1440)
+			font-size: 32px
+		+r(1300)
+			font-size: 30px
+		+r(1024)
+			font-size: 27px
+	&__bottom
+		display: none
+	&__content
+		display: flex
+		align-items: flex-start
+		+r(768)
+			display: block
+	&__list
+		max-width: 780px
+		width: 100%
+		padding-top: 9px
+		+r(1720)
+			max-width: 640px
+		+r(1440)
+			padding-top: 0
+			max-width: 540px
+		+r(1300)
+			max-width: 510px
+			padding-top: 0
+		+r(1140)
+			max-width: 420px
+		+r(1024)
+			max-width: 53%
+		+r(768)
+			max-width: 85%
+		+r(480)
+			max-width: 100%
+			display: flex
+			flex-wrap: wrap
+	.list__item
+		+nlt
+			margin-bottom: 24px
+			padding-bottom: 24px
+			border-bottom: 1px solid transparentize($garkGreen, .8)
+		+r(1720)
+			+nlt
+				margin-bottom: 20px
+				padding-bottom: 20px
+		+r(1440)
+			+nlt
+				margin-bottom: 15px
+				padding-bottom: 15px
+		+r(1300)
+			+nlt
+				margin-bottom: 10px
+				padding-bottom: 10px
+		+r(480)
+			width: 50%
+			padding-top: 15px
+			+nlt
+				margin: 0
+				padding-bottom: 15px
+			&:nth-of-type(even)
+				padding-left: 20px
+			&:nth-of-type(odd)
+				border-right: 1px solid transparentize($garkGreen, .8)
+				
+	&__label
+		display: flex
+		align-items: center
+		+r(480)
+			flex-direction: row-reverse
+			align-items: flex-start
+	&__label-ico
+		flex-shrink: 0
+		margin-right: 30px
+		width: 56px
+		+r(1440)
+			margin-right: 20px
+		+r(480)
+			margin-right: 0
+			width: 39px
+	&__label-text
+		font-size: 18px
+		line-height: 170%
+		color: $garkGreen
+		+r(1440)
+			font-size: 16px
+		+r(1300)
+			font-size: 14px
+		+r(480)
+			line-height: 140%
+			margin-right: 15px

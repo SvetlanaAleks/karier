@@ -1,0 +1,105 @@
+.benefits
+	padding: 56px 0
+	+r(1440)
+		padding: 40px 0
+	+r(1024)
+		padding: 33px 0
+	&__list
+		display: flex
+		justify-content: space-between
+		+r(890)
+			flex-wrap: wrap
+	&__item
+		max-width: 350px
+		width: 100%
+		+r(1720)
+			max-width: 300px
+		+r(890)
+			max-width: 50%
+		+r(480)
+			max-width: 100%
+
+.advantage
+	display: flex
+	align-items: center
+	padding-top: 7px
+	padding-bottom: 19px
+	&:not(:first-of-type)
+		margin-left: 40px
+	+nlt
+		border-right: 1px solid transparentize(#022723, .8)
+	+r(1720)
+		&:not(:first-of-type)
+			margin-left: 30px
+	+r(1440)
+		padding: 10px 0
+	+r(1140)
+		&:not(:first-of-type)
+			margin-left: 20px
+	+r(1024)
+		&:not(:first-of-type)
+			margin-left: 10px
+	+r(890)
+		&:not(:first-of-type)
+			margin-left: 0
+		&:nth-of-type(even)
+			padding-left: 15px
+			border-left: 1px solid transparentize(#022723, .8)
+		+nlt
+			border-right: none
+		&:nth-of-type(-n+2)
+			border-bottom: 1px solid transparentize(#022723, .8)
+	+r(480)
+		padding: 0
+		&:nth-of-type(even)
+			padding-left: 0
+			border: none
+		+nlt
+			padding-bottom: 18px
+			margin-bottom: 15px
+			border-bottom: 1px solid transparentize(#022723, .8)
+	&__ico-wrap
+		background: $ligthgreen
+		width: 64px
+		height: 64px
+		border-radius: 50%
+		flex-shrink: 0
+		margin-right: 28px
+		display: flex
+		align-items: center
+		justify-content: center
+		+r(1720)
+			margin-right: 20px
+		+r(1440)
+			width: 55px
+			height: 55px
+			margin-right: 15px
+			img
+				transform: scale(.95)
+		+r(1300)
+			width: 45px
+			height: 45px
+			img
+				transform: scale(.85)
+		+r(1024)
+			width: 40px
+			height: 40px
+			margin-right: 10px
+			img
+				transform: scale(.7)
+		+r(480)
+			margin-right: 24px
+	&__text
+		color: $garkGreen
+		font-weight: 500
+		font-size: 18px
+		line-height: 120%
+		width: 62%
+		+r(1720)
+			width: 66%
+		+r(1440)
+			font-size: 16px
+		+r(1300)
+			width: 72%
+		+r(480)
+			width: 100%

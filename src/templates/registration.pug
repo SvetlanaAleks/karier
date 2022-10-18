@@ -1,0 +1,53 @@
+- var REGISTRATION = LANG.registration;
+- var FORM = LANG.form;
+
+section.registration#registration
+	.container
+		.registration__wrapper
+			.registration__left
+				h2.registration__title.title!= REGISTRATION.title
+				.registration__info
+					.registration__price-wrap
+						p.registration__price-label!= REGISTRATION.label
+						.registration__price
+							p.registration__price-new.yellow 60 USD
+							p.registration__price-old 100 USD
+					.registration__date
+						.date-item
+							img.date-item__ico(src="img/svg/date_ico_1.svg", alt="ico")
+							p.date-item__text!= REGISTRATION.date1
+						.date-item
+							img.date-item__ico(src="img/svg/date_ico_2.svg", alt="ico")
+							p.date-item__text!= REGISTRATION.date2
+			.registration__form
+				form.form(action="/", method="post")
+					.form__top
+						p.form__timer-text!= FORM.timer
+						.timer
+							.timer__block
+								.timer__el
+									span.days 0
+								.timer__el
+									span.days 0
+							p.timer__dot :
+							.timer__block
+								.timer__el
+									span.hours 0
+								.timer__el
+									span.hours 0
+							p.timer__dot :
+							.timer__block
+								.timer__el
+									span.minutes 0
+								.timer__el
+									span.minutes 0
+					.form__inputs
+						input.form__input.input(type="text", name="name" placeholder=FORM.inputName required)
+						input.form__input.input(type="tel", name="phone" placeholder=FORM.inputPhone required)
+						input.form__input.input(type="email", name="email" placeholder=FORM.inputEmail required)
+					button.form__btn.btn!= FORM.button_3
+					.form__checkbox.checkbox
+						label.checkbox__label!= FORM.checkbox
+							input.checkbox__input(type="checkbox" required)
+							span.checkbox__checkmark
+								i.fico.fico-check

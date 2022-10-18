@@ -1,0 +1,11 @@
+- var FAQ = LANG.faq;
+include ../templates/mixins/question.pug
+
+
+section.faq
+	.container
+		.faq__wrapper
+			h2.faq__title.title.title--med!= FAQ.title
+			.faq__list.js-accordeon
+				each question in FAQ.questionArray
+					+question(question)

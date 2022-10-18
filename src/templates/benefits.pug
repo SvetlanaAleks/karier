@@ -1,0 +1,18 @@
+- var BENEFITS = LANG.benefits;
+
+-
+	const icons = [
+		'img/svg/advantage_ico_1.svg',
+		'img/svg/advantage_ico_2.svg',
+		'img/svg/advantage_ico_3.svg',
+		'img/svg/advantage_ico_4.svg'
+	];
+
+.benefits
+	.container
+		.benefits__list
+			each item, key in BENEFITS
+				.advantage.benefits__item
+					.advantage__ico-wrap
+						img.advantage__ico(src=icons[key], alt="icon")
+					p.advantage__text!= item

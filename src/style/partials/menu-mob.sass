@@ -1,0 +1,54 @@
+.menu-mobile
+	display: none
+	text-align: center
+	position: relative
+	padding-bottom: 32px
+	padding-top: 32px
+	background: $primary url('../img/svg/promo_grid.svg') no-repeat center bottom
+	background-size: 910px
+	position: relative
+	overflow: hidden
+	+r(890)
+		font-size: 24px
+		width: 375px
+		bottom: 0
+		display: block
+		position: fixed
+		right: 0
+		top: 0
+		z-index: 11
+		transform: translateX(100%)
+		transition: all .5s
+		&--active
+			transform: translateX(0)
+	+r(480)
+		width: 100%
+		padding-top: 26px
+	&__wrap
+		display: flex
+		flex-direction: column
+		height: 100%
+		overflow-y: auto
+		justify-content: space-between
+		padding: 0 20px
+	&__top
+		display: flex
+		align-items: center
+		width: 100%
+		justify-content: space-between
+		padding-bottom: 27px
+	&__nav
+		text-align: left
+		min-height: 250px
+		.nav__item
+			display: table
+			+nlt
+				margin-bottom: 30px
+	&__bottom
+		margin-top: 30px
+		width: 100%
+		text-align: left
+		.language__link
+			font-size: 24px
+			+nlt
+				margin-right: 30px

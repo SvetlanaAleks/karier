@@ -1,0 +1,18 @@
+- var STRUCTURE = LANG.structure;
+include ../templates/mixins/question.pug
+
+
+
+
+section.structure#structure
+	.container
+		.structure__top
+			h2.structure__title.title.title--med!= STRUCTURE.title
+			.structure__list.js-accordeon
+				each question in STRUCTURE.questionArray
+					+question(question)
+		.structure__bottom
+			.structure__info
+				img.structure__ico(src="img/svg/time.svg", alt="time")
+				p.structure__label!= STRUCTURE.label
+			a.structure__btn.btn.js-scroll(href="#registration")!= STRUCTURE.button

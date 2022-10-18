@@ -1,0 +1,243 @@
+.tutors
+	padding-top: 70px
+	padding-bottom: 140px
+	+r(1440)
+		padding-top: 50px
+		padding-bottom: 100px
+	+r(1300)
+		padding-top: 20px
+		padding-bottom: 70px
+	+r(1024)
+		padding-top: 0
+	+r(890)
+		padding-bottom: 50px
+	&__title
+		margin-bottom: 81px
+		color: $garkGreen
+		+r(1440)
+			margin-bottom: 70px
+		+r(1300)
+			margin-bottom: 60px
+		+r(1140)
+			margin-bottom: 50px
+		+r(890)
+			margin-bottom: 30px
+		+r(480)
+			width: 220px
+			margin-bottom: 25px
+	&__slider
+		margin-left: calc(50% - 740px)
+		+r(1720)
+			margin-left: calc(50% - 630px)
+		+r(1440)
+			margin-left: calc(50% - 570px)
+		+r(1300)
+			margin-left: calc(50% - 510px)
+		+r(1140)
+			margin-left: calc(50% - 450px)
+		+r(1024)
+			margin-left: 40px
+		+r(480)
+			margin-left: 30px
+	.slick-slide
+		margin: 0 20px
+		transition: all .3s
+		position: relative
+		max-width: 480px
+		width: 100%
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			top: 0
+			bottom: 0
+			right: 0
+			left: 0
+			background: transparentize(white, .3)
+			transition: all .3s
+			pointer-events: none
+		&.slick-active
+			&::after
+				background: none
+		+r(1720)
+			max-width: 410px
+			margin: 0 15px
+		+r(1440)
+			max-width: 370px
+		+r(1300)
+			max-width: 330px
+		+r(1140)
+			max-width: 300px
+		+r(1024)
+			margin: 0 10px
+			max-width: 305px
+	.slick-list
+		margin: 0 -20px
+		+r(1720)
+			margin: 0 -15px
+		+r(1024)
+			margin: 0 -10px
+	.slick-arrow
+		top: -155px
+		&.next
+			left: 1430px
+		&.prev
+			left: 1350px
+		+r(1720)
+			top: -150px
+			&.next
+				left: 1200px
+			&.prev
+				left: 1120px
+		+r(1440)
+			top: -130px
+			&.next
+				left: 1100px
+			&.prev
+				left: 1030px
+		+r(1300)
+			top: -110px
+			&.next
+				left: 990px
+			&.prev
+				left: 935px
+		+r(1140)
+			top: -100px
+			&.next
+				left: 875px
+			&.prev
+				left: 820px
+		+r(1024)
+			top: -15.5%
+			&.next
+				left: auto
+				right: 30px
+			&.prev
+				left: auto
+				right: 85px
+		+r(890)
+			top: -12%
+		+r(768)
+			top: -10.5%
+			&.prev
+				right: 70px
+		+r(480)
+			top: -16.5%
+			&.next
+				right: 20px
+			&.prev
+				right: 60px
+
+	.slick-dots
+		margin-top: 40px
+		width: 1520px
+		+r(1720)
+			width: 1290px
+		+r(1440)
+			width: 1170px
+			margin-top: 30px
+		+r(1300)
+			width: 1050px
+		+r(1140)
+			width: 940px
+		+r(1024)
+			width: auto
+			margin-left: -30px
+		+r(480)
+			margin-top: 23px
+
+.tutor
+	border-bottom-right-radius: 30px
+	border-right: 1px solid #CFCFCF
+	border-bottom: 1px solid #CFCFCF
+	min-height: 904px
+	display: flex !important
+	flex-direction: column
+	align-items: flex-start
+	height: 100%
+	padding-bottom: 25px
+	+r(1720)
+		min-height: 850px
+	+r(1440)
+		min-height: 760px
+		padding-bottom: 20px
+	+r(1300)
+		min-height: 660px
+	+r(1024)
+		min-height: 590px
+	+r(480)
+		min-height: 578px
+	&__img
+		margin-bottom: 56px
+		max-width: 440px
+		width: 100%
+		+r(1720)
+			max-width: 380px
+			margin-bottom: 45px
+		+r(1440)
+			max-width: 340px
+			margin-bottom: 35px
+		+r(1300)
+			max-width: 300px
+			margin-bottom: 20px
+		+r(1140)
+			max-width: 270px
+		+r(1024)
+			max-width: 280px
+		+r(480)
+			margin-bottom: 26px
+	&__name
+		font-weight: 500
+		font-size: 32px
+		line-height: 100%
+		margin-bottom: 20px
+		color: $garkGreen
+		+r(1720)
+			font-size: 30px
+		+r(1440)
+			font-size: 28px
+			margin-bottom: 15px
+		+r(1300)
+			font-size: 24px
+			margin-bottom: 10px
+		+r(480)
+			margin-bottom: 15px
+	&__post
+		font-size: 18px
+		color: $primary
+		margin-bottom: 40px
+		+r(1720)
+			font-size: 17px
+			margin-bottom: 35px
+		+r(1440)
+			width: 90%
+			line-height: 120%
+			margin-bottom: 25px
+		+r(1300)
+			font-size: 16px
+		+r(480)
+			margin-bottom: 20px
+	&__text
+		max-width: 415px
+		width: 100%
+		font-size: 24px
+		line-height: 140%
+		color: transparentize($garkGreen, .3)
+		+r(1720)
+			font-size: 22px
+			max-width: 90%
+		+r(1440)
+			font-size: 20px
+		+r(1300)
+			font-size: 18px
+		+r(1024)
+			font-size: 16px
+	&__logo
+		margin-top: auto
+		+r(1440)
+			transform: scale(.9)
+			transform-origin: bottom left
+		+r(1300)
+			transform: scale(.8)
+		+r(1024)
+			transform: scale(.6)

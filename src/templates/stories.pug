@@ -1,0 +1,23 @@
+- var STORIES = LANG.stories;
+
+mixin story(photo, name, text)
+	.story
+		img.story__photo(src=photo, alt=name)
+		.story__info
+			p.story__name!= name
+				img.story__ico(src="img/svg/quotes.svg", alt="quotes")
+			p.story__text!= text
+
+-
+	const photoStoty = [
+		'img/story_photo_1.jpg',
+		'img/story_photo_1.jpg',
+		'img/story_photo_1.jpg'
+	];
+
+section.stories
+	.container
+		h2.stories__title.title.title--med!= STORIES.title
+		.stories__slider.js-stories-slider
+			each item, key in STORIES.slider
+				+story(photoStoty[key], item.name, item.text)
