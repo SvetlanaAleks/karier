@@ -2,9 +2,9 @@
 include menu-mob
 include nav
 
-mixin menu(page)
+mixin menu(page, color="ligth")
 	+menu-mob(page)
-	.menu
+	.menu(class="menu--"+color)
 		.container
 			.menu__wrapper
 				img.menu__logo(src="img/svg/logo.svg", alt="Karier")

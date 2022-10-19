@@ -9,6 +9,23 @@
 		padding-top: 25px
 	+r(480)
 		padding-top: 32px
+	&--dark
+		.menu__nav
+			display: none
+		.menu__language
+			+r(890)
+				display: flex
+		.menu__burger
+			+r(890)
+				display: none
+		.nav__item
+			color: $garkGreen
+			&:last-of-type
+				color: #007668
+		.language__link
+			color: $garkGreen
+			&.active
+				color: #D0D0D0
 	&__wrapper
 		display: flex
 		+r(1300)
