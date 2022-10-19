@@ -27,18 +27,18 @@
   "promo": {
     "label": "Kursus 6 bulan",
     "title": "Data Analyst",
-    "desc": "Akan meningkatkan penghasilanmu hingga <span class=\"yellow\">1500&nbsp;USD</span> per bulan!",
-    "list": ["Jaminan pekerjaan", "Beginner-friendly"],
-    "btn": "Get the consultation"
+    "desc": "Tingkatkan penghasilan Anda hingga <span class=\"yellow\">1500&nbsp;USD</span> per bulan!",
+    "list": ["Jaminan pekerjaan", "Ramah pemula"],
+    "btn": "Dapatkan konsultasinya"
   },
   "form": {
     "title": "Dapatkan konsultasi tentang kursus",
     "inputName": "Nama",
     "inputPhone": "Telepon",
     "inputEmail": "E-mail",
-    "button": "Tinggalkan konsultasi",
+    "button": "Dapatkan konsultasinya",
     "button_2": "Kirim permintaan",
-    "button_3": "Register for the course",
+    "button_3": "Kirim permintaan",
     "checkbox": "Dengan mengklik kotak centang, Anda menyetujui kebijakan privasi, persyaratan penggunaan, dan perjanjian pelatihan kami",
     "desc": "Konsultan kami akan menjawab semua pertanyaanmu",
     "timer": "Tawaran <br> berakhir dalam:"
@@ -50,180 +50,179 @@
     "Bantuan pekerjaan setelah lulus"
   ],
   "reasons": {
-    "title_1": "TOP-5 reasons to come to the profession of Data Analyst",
+    "title_1": "Top-5 alasan untuk mulai karir Data Analyst",
     "list_1": [
-      "High salaries (up to 3000 USD per month)",
-      "High and rising demand on the market",
-      "Possibility of remote work",
-      "Big potential of further career growth",
-      "Minimum of previous experience required"
+      "Gaji tinggi (hingga 3000 USD per bulan)",
+      "Permintaan bidang yang tinggi dan terus meningkat",
+      "Kemungkinan kerja remote",
+      "Potensi besar untuk pertumbuhan dan pengembangan karir lebih lanjut",
+      "Diperlukan minimal pengalaman sebelumnya"
     ],
-    "title_2": "What does a Data Analyst do?",
+    "title_2": "Apa yang dilakukan seorang Data Analyst?",
     "list_2": [
-      "Collecting, mining, and analyzing sales and market information",
-      "Assessing marketing effectiveness",
-      "Evaluating consumer purchasing habits and patterns",
-      "Evaluating consumer purchasing habits and patterns",
-      "Designing data collection and evaluation tools",
-      "Creating projections and reports based on their findings"
+      "Mengumpulkan, menambang, dan menganalisis penjualan dan informasi pemasaran",
+      "Menilai efektivitas pemasaran",
+      "Mengevaluasi kebiasaan dan pola pembelian konsumen",
+      "Merancang сara pengumpulan dan evaluasi data",
+      "Membuat proyeksi dan laporan berdasarkan datanya"
     ],
-    "label": "The Bureau of Labor and Statistics (U.S.) expects the number of hired Data Analysts to grow by 25% during the decade from 2020 to 2030."
+    "label": "The Bureau of Labor and Statistics (AS) memperkirakan jumlah Data Analyst yang direkrut akan tumbuh sebesar 25% selama dekade 2020-30."
   },
   "preview": {
-    "title": "Explanation of the Data Analyst position",
+    "title": "Penjelasan <br> posisi Data Analyst",
     "button": "Play Video",
-    "subtitle": "This course is for those who want:",
-    "item_1": "Get into new highly paid profession",
-    "item_2": "Work remotely with top world companies",
-    "item_3": "Get promotion on your actual job position"
+    "subtitle": "Kursus ini adalah bagi mereka yang ingin:",
+    "item_1": "Masuk ke profesi baru yang dibayar tinggi",
+    "item_2": "Bekerja remote dengan perusahaan terbaik <br> di dunia ",
+    "item_3": "Dapatkan promosi di posisi kerjamu yang <br> sebenarnya"
   },
   "program": {
-    "title": "In this course you&nbsp;will",
+    "title": "Dalam kursus ini kau&nbsp;akan",
     "list": [
       {
-        "title": "Learn all of the skills",
-        "text": "And tools, and processes you need to become a data analyst"
+        "title": "Pelajari semua keterampilan",
+        "text": "Alat, dan proses yang dibutuhkan untuk menjadi Data Analyst"
       },
       {
-        "title": "Work 1:1 with an expert mentor and tutor",
-        "text": "Who will give personalized feedback and insight into the daily life of a data analyst"
+        "title": "Bekerja 1:1 dengan mentor dan tutor",
+        "text": "Ahli, yang akan memberikan umpan balik dan wawasan yang dipersonalisasi tentang kehidupan sehari-hari seorang Data Analyst"
       },
       {
-        "title": "Receive tailored coaching",
-        "text": "From our Career Support Team to ensure you stand out at interviews"
+        "title": "Terima pembinaan yang disesuaikan",
+        "text": "Dari Tim Dukungan Karir kami untuk memastikan kau menonjol saat interview kerja"
       },
       {
-        "title": "Build an impressive portfolio",
-        "text": "Out of the real-world projects you complete"
+        "title": "Bangun portofolio yang mengesankan",
+        "text": "Dari proyek nyata yang kau selesaikan"
       },
       {
-        "title": "Land a job as a data analyst",
-        "text": "Within 180 days of graduating from the program — or your money back"
+        "title": "Dapatkan pekerjaan sebagai Data Analyst",
+        "text": "Dalam waktu 180 hari setelah lulus dari program — atau uangmu akan dikembalikan"
       }
     ]
   },
   "structure": {
-    "title": "Course structure",
+    "title": "Struktur kursus",
     "questionArray": [
       {
-        "ttl": "1/ Introduction to data analytics",
+        "ttl": "1/ Pengantar Data Analytics",
         "list": [
-          "What is data analytics?",
-          "Difference between data analytics and data science",
-          "Different types of data analysis",
-          "Some data analytics real-world case studies",
-          "What does a data analyst do?",
-          "What is the typical process that a data analyst will follow?",
-          "Tools and techniques do data analysts use"
+          "Apa itu data analytics?",
+          "Perbedaan antara data analytics dan data science",
+          "Berbagai jenis data analysis",
+          "Beberapa studi kasus nyata dalam data analytics ",
+          "Apa yang dilakukan seorang data analyst?",
+          "Apa proses khas yang akan diikuti oleh seorang Data Analyst?",
+          "Alat dan teknik yang digunakan oleh seorang Data Analyst?"
         ]
       },
       {
-        "ttl": "2/ Statistics for data analysis",
+        "ttl": "2/ Statistik untuk seorang Data Analyst",
         "list": [
-          "Statistics from basics",
-          "Descriptive Statistics - Mean, Mode, Median, Standard Deviation, Variance and Interquartile Range",
-          "Probability Distributions - Normal, Binomial and Poisson",
-          "Statistical tests"
+          "Statistik dari dasar-dasar",
+          "Statistik Deskriptif - Rata-rata, Modus, Median, Standar Deviasi, Varians dan Jangkauan Interkuartil",
+          "Distribusi Probabilitas - Normal, Binomial dan Poisson",
+          "Tes statistik"
         ]
       },
       {
-        "ttl": "3/ Data analysis in Excel",
+        "ttl": "3/ Data analysis dalam Excel",
         "list": [
-          "Preparation of data and data cleaning",
-          "Creating flexible data aggregations using pivot tables",
-          "Representing data visually using pivot charts",
-          "Calculating margins and other common ratios using calculation on pivot table",
-          "Filtering data using slicers in multiple pivot tables",
-          "Creating aggregate reports using formula based techniques"
+          "Persiapan data dan pembersihan data",
+          "Membuat agregasi data yang fleksibel menggunakan PivotTable",
+          "Merepresentasikan data secara visual menggunakan diagram Pivot",
+          "Menghitung margin dan rasio umum lainnya menggunakan perhitungan pada PivotTable",
+          "Memfilter data menggunakan Slicer di beberapa PivotTable",
+          "Membuat laporan agregat menggunakan teknik berbasis rumus."
         ]
       },
       {
-        "ttl": "4/ Working with Google Data Studio, Power BI and Tableau",
+        "ttl": "4/ Bekerja dengan Google Data Studio, Power BI dan Tableau",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
       },
       {
-        "ttl": "5/ SQL and working with databases",
+        "ttl": "5/ SQL dan bekerja dengan database",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
       },
       {
-        "ttl": "6/ Dashboards and key business metrics",
+        "ttl": "6/ Dashboard dan metrik bisnis utama",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
       },
       {
-        "ttl": "7/ Practical application of data analytics to marketing and sales",
+        "ttl": "7/ Penggunaan praktis analitik data untuk marketing dan penjualan",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
       },
       {
-        "ttl": "8/ Automation of analytics using Python",
+        "ttl": "8/ Otomasi analisis menggunakan Python",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
       },
       {
-        "ttl": "9/ Career in data analytics",
+        "ttl": "9/ Karir di bidang Data Analytics",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
       }
     ],
-    "label": "You will not find a faster way to get to the profession of Data Analyst",
-    "button": "Sign up for the course"
+    "label": "Kau tidak akan menemukan cara lebih cepat untuk menjadi Data Analyst",
+    "button": "Mendaftar untur kursus"
   },
   "tutors": {
-    "title": "Meet your tutors",
+    "title": "Temui <br> tutormu",
     "sliders": [
       {
         "name": "Lukmanto Fengge",
-        "post": "Senior Data Analyst at Accubits Technologies Inc",
-        "text": "15 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "post": "Analis Data Senior di Accubits Technologies Inc",
+        "text": "15 tahun pengalaman analisis data di perusahaan seperti Google, Facebook dan Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
         "name": "Saif Pelamonia",
-        "post": "Data Scientist at Ice House",
-        "text": "8 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "post": "Data Scientist di Ice House",
+        "text": "10 tahun pengalaman analisis data di perusahaan seperti Google, Facebook dan Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "name": "Slamet Tirta Agusalim",
-        "post": "Guru of data analytics at DOXA Digital",
-        "text": "10 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "post": "Data Analytics guru di DOXA Digital",
+        "text": "8 tahun pengalaman analisis data di perusahaan seperti Google, Facebook dan Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "name": "Lukmanto Fengge",
-        "post": "Senior Data Analyst at Accubits Technologies Inc",
-        "text": "15 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "post": "Analis Data Senior di Accubits Technologies Inc",
+        "text": "15 tahun pengalaman analisis data di perusahaan seperti Google, Facebook dan Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
         "name": "Saif Pelamonia",
-        "post": "Data Scientist at Ice House",
-        "text": "8 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "post": "Data Scientist di Ice House",
+        "text": "10 tahun pengalaman analisis data di perusahaan seperti Google, Facebook dan Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "name": "Slamet Tirta Agusalim",
-        "post": "Guru of data analytics at DOXA Digital",
-        "text": "10 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "post": "Data Analytics guru di DOXA Digital",
+        "text": "8 tahun pengalaman analisis data di perusahaan seperti Google, Facebook dan Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     ]
   },
   "support": {
-    "title": "Career Support",
-    "desc": "Your personal career manager will guide you through the employment process right until your job offer",
+    "title": "Dukungan Karir",
+    "desc": "Manajer karir akan memandumu melalui proses kerja hingga job offermu",
     "list": [
-      "Help in creation of CV and motivation letter",
-      "Review of LinkedIn and other social networks account",
-      "Navigation through the list of potential employers",
-      "Preparation for the interview with practical simulation (mock interview)",
-      "Vacancies from our partners"
+      "Membantu dalam pembuatan CV dan surat motivasi",
+      "Review dari LinkedIn dan akun jejaring sosial lainnya",
+      "Navigasi melalui daftar calon pemberi kerja",
+      "Persiapan wawancara dengan simulasi praktis (mock interview)",
+      "Lowongan dari mitra kami"
     ]
   },
   "guarantees": {
-    "title": "Job Guaranteed",
-    "desc": "As our team works in tight cooperation with HR-departments of top companies on the market, our course is built in such a way that it assures you to correspond to all requirements of potential employers after graduation.",
-    "subtitle": "We guarantee that you will get a job after successful completion of this course in case if you:",
+    "title": "Jaminan pekerjaan",
+    "desc": "Karena tim kami bekerja sama erat dengan departemen SDM TOP Perusahaan, kursus kami dibangun sedemikian rupa sehingga meyakinkanmu untuk memenuhi semua persyaratan calon pemberi kerja setelah lulus.",
+    "subtitle": "Kami menjamin kau akan mendapatkan pekerjaan setelah berhasil menyelesaikan kursus ini dalam kasus jika:",
     "list": [
-      "Pass all modules according to the course timeline",
-      "Complete all tasks before their deadlines",
-      "Successfully pass the final attestation",
-      "Follow the guidelines of the Career Center"
+      "Kau lulus semua modul sesuai dengan jadwal kursus",
+      "Kau selesaikan semua tugas sebelum deadline",
+      "Kau berhasil lulus pengesahan akhir",
+      "Kauikuti panduan Career Center"
     ]
   },
   "stories": {
-    "title": "Our students success stories",
+    "title": "Kisah sukses <br> siswa kami",
     "slider": [
       {
         "name": "Zebadiah Dongoran",
@@ -240,39 +239,39 @@
     ]
   },
   "registration": {
-    "title": "Start your career in data analytics right now",
+    "title": "Mulailah karirmu dalam bidang data analytics sekarang",
     "label": "Early birds offer:",
-    "date1": "Start: <br> October 20",
-    "date2": "Duration: <br> 6 month"
+    "date1": "Kursus mulai: <br> Oktober 20",
+    "date2": "Durasi: <br> 6 bulan"
   },
   "faq": {
-    "title": "frequently asked&nbsp;questions",
+    "title": "FAQ",
     "questionArray": [
       {
-        "ttl": "Is the program 100% online?",
-        "text": "Yes, the program is entirely online, so you can study when and wherever you’d like. At the same time, the program is filled with a lot of interaction with your teacher and other students, so you definitely won't feel lonely."
+        "ttl": "Apakah program ini 100% online?",
+        "text": "Ya, program ini sepenuhnya online, sehingga kau dapat belajar kapan oun dan di mana pun. Pada saat yang sama, program ini diisi dengan banyak interaksi dengan guru dan siswa lain, sehingga kau tidak akan merasa kesepian."
       },
       {
-        "ttl": "Can I study only one module that I am most interested in?",
-        "text": "The course is a complete system, specially designed to become a highly professional data analyst. Viewing the course in parts will not give the desired effect, so this is not possible."
+        "ttl": "Bisakah saya mempelajari hanya satu modul yang paling saya minati?",
+        "text": "Kursus ini adalah sistem yang lengkap, yang dirancang khusus untuk menjadi data analyst yang sangat profesional. Jika belajar hanya beberapa bagian kursus, itu tidak akan memberikan efek yang diinginkan, jadi tidak bisa."
       },
       {
-        "ttl": "Are there some requirements for the job guarantee?",
-        "text": "There are a number of conditions that graduates must meet in order to receive a job guarantee. You must complete 100% of the course and complete all assignments, complete the free Job Ready course, follow the recommendations of career counselors, and submit at least 5 job requests per week during 6 months."
+        "ttl": "Apakah ada beberapa persyaratan untuk jaminan pekerjaan?",
+        "text": "Ada beberapa syarat yang harus dipenuhi lulusan untuk mendapatkan jaminan kerja. Anda harus menyelesaikan 100% kursus dan menyelesaikan semua tugas, menyelesaikan kursus gratis Job ready, mengikuti rekomendasi konselor karir, dan mengirimkan setidaknya 5 permintaan pekerjaan per minggu selama 6 bulan."
       },
       {
-        "ttl": "How many hours per week do I need to work on this course?",
-        "text": "Typically, the learning process and assignments take from 4 to 10 hours a week."
+        "ttl": "Berapa jam per minggu yang saya butuhkan untuk mengerjakan kursus ini?",
+        "text": "Biasanya, proses pembelajaran dan tugas memakan waktu 4 hingga 10 jam seminggu."
       }
     ]
   },
   "footer": {
     "text_1": "Indonesian Education Corp.",
     "text_2": "Lantai 2 Menara Batavia, Jl. K.H. Mas Mansyur No.126, <br> Kota Jakarta Pusat, Banten 10220",
-    "label_contact_1": "Students support: ",
-    "label_contact_2": "For more information about the courses:",
-    "privacy_link_1": "Privacy Policy",
-    "privacy_link_2": "Terms of use",
-    "privacy_link_3": "Training agreement"
+    "label_contact_1": "Dukungan siswa: ",
+    "label_contact_2": "Informasi lebih lanjut tentang kursus tolong kontak:",
+    "privacy_link_1": "Kebijakan Privasi",
+    "privacy_link_2": "Ketentuan Penggunaan",
+    "privacy_link_3": "Perjanjian pelatihan"
   }
 }
