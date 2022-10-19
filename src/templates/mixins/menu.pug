@@ -7,7 +7,8 @@ mixin menu(page, color="ligth")
 	.menu(class="menu--"+color)
 		.container
 			.menu__wrapper
-				img.menu__logo(src="img/svg/logo.svg", alt="Karier")
+				a(href="index.html")
+					img.menu__logo(src="img/svg/logo.svg", alt="Karier")
 				+nav(MENU.nav).menu__nav
 				.menu__language.language
 					a.language__link.active.js-language(href=url('en', `/${page}.html`), data-lang="en") En

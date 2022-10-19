@@ -272,7 +272,7 @@
     "label_contact_2": "Informasi lebih lanjut tentang kursus tolong kontak:",
     "privacy_link_1": "Kebijakan Privasi",
     "privacy_link_2": "Ketentuan Penggunaan",
-    "privacy_link_3": "Perjanjian pelatihan"
+    "privacy_link_3": "Cookie policy"
   },
   "privacy": {
     "title": "Privacy Policy for Make Profit SRL",
@@ -304,7 +304,7 @@
                 "text": "1.2.5. The Company is a legal entity MAKE PROFIT SRL, which is registered and located at Sector 5, Calea Rahovei Str. 266-268, CORP 2, AXELE A-B, office 06D, Bucharest, Romania, 050897, which operates the Site."
               },
               {
-                "text": "1.2.6. The Site is a web portal under the URL address: https://makeprofit.srl/."
+                "text": "1.2.6. The Site is a web portal under the URL address: <a  href=\"http://karier.me/\">http://karier.me/</a>."
               },
               {
                 "text": "1.2.7. The Customer is an individual who intends to order or purchase, or who orders, purchases or uses the Goods solely for personal, family, household and other needs not related to business activities with proper legal capacity."
@@ -320,7 +320,7 @@
         "title": "2. NAME AND ADDRESS OF THE CONTROLLER",
         "list": [
           {
-            "text": "2.1. Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is: Make Profit SRL | Email: <a  href=\"mailto:support@education.com\">support@makeprofit.srl</a> | Website: <a  href=\"mailto:support@education.com\">https://makeprofit.srl/</a>"
+            "text": "2.1. Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is: Make Profit SRL | Email: <a  href=\"mailto:support@education.com\">support@makeprofit.srl</a> | Website: <a  href=\"http://karier.me/\">http://karier.me/</a>"
           }
         ]
       },
@@ -491,7 +491,7 @@
         "title": "ТERMINOLOGY",
         "text": [
           "The Company is a legal entity MAKE PROFIT SRL, which is registered and located at Sector 5, Calea Rahovei Str. 266-268, CORP 2, AXELE A-B, office 06D, Bucharest, Romania, 050897, which operates the Site.",
-          "The Site is a web portal under the URL address https://makeprofit.srl/.",
+          "The Site is a web portal under the URL address <a  href=\"http://karier.me/\">http://karier.me/</a>.",
           "The Customer is an individual who intends to order or purchase, or who orders, purchases or uses the Goods solely for personal, family, household and other needs not related to business activities with proper legal capacity.",
           "Goods - any goods that are placed on the Site and are available for purchase by Customers.",
           "The Order is the expression of the Customer's will, drawn up in accordance with these terms and conditions, aimed at the conclusion of an agreement of purchase and sale of Goods, offered by the Company for retail sale through the Site.",
@@ -615,6 +615,82 @@
         "title": "GOVERNING LAW",
         "text": [
           "These Terms and Conditions are to be construed as published on the Site, and shall be applied and interpreted in accordance with the substantive law of Romania."
+        ]
+      }
+    ]
+  },
+  "cookie": {
+    "title": "Cookie Policy for Make Profit SRL",
+    "text": "This is the Cookie Policy for Make Profit SRL, accessible from <a  href=\"http://karier.me/\">http://karier.me/</a>",
+    "chapters": [
+      {
+        "title": "What Are Cookies",
+        "content": [
+          {
+            "text": "As is common practice with almost all professional websites this website uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the sites functionality."
+          },
+          {
+            "text": "For more general information on cookies see the Wikipedia article on HTTP Cookies."
+          }
+        ]
+      },
+      {
+        "title": "How We Use Cookies",
+        "content": [
+          {
+            "text": "We use cookies for a variety of reasons detailed below. Unfortunately, in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this website. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use."
+          }
+        ]
+      },
+      {
+        "title": "Disabling Cookies",
+        "content": [
+          {
+            "text": "You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of this website. Therefore, it is recommended that you do not disable cookies."
+          }
+        ]
+      },
+      {
+        "title": "The Cookies We Set",
+        "content": [
+          {
+            "sublist": [
+              {
+                "text": "<span>Account related cookies</span> You will be given a possibility to create an account on website. If you create an account with us then we will use cookies for the management of the signup process and general administration. These cookies will usually be deleted when you log out however in some cases, they may remain afterwards to remember your site preferences when logged out."
+              },
+              {
+                "text": "<span>Login related cookies</span> We use cookies when you are logged in so that we can remember this fact. This prevents you from having to log in every single time you visit a new page. These cookies are typically removed or cleared when you log out to ensure that you can only access restricted features and areas when logged in."
+              },
+              {
+                "text": "<span>Email newsletters related cookies</span> Website includes a possibility to offer newsletter or email subscription services. This website offers newsletter or email subscription services and cookies may be used to remember if you are already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed users."
+              },
+              {
+                "text": "<span>Forms related cookies</span> When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Third Party Cookies",
+        "content": [
+          {
+            "text": "In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this website."
+          },
+          {
+            "text": "This website uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the website and ways that we can improve your experience. These cookies may track things such as how long you spend on the website and the pages that you visit so we can continue to produce engaging content. For more information on Google Analytics cookies, see the official Google Analytics page."
+          }
+        ]
+      },
+      {
+        "title": "More Information",
+        "content": [
+          {
+            "text": "However, if you are still looking for more information then you can contact us through one of our preferred contact methods:"
+          },
+          {
+            "text": "Make Profit SRL | Email: support@makeprofit.srl"
+          }
         ]
       }
     ]
