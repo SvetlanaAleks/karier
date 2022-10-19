@@ -20,7 +20,7 @@ section.registration#registration
 							img.date-item__ico(src="img/svg/date_ico_2.svg", alt="ico")
 							p.date-item__text!= REGISTRATION.date2
 			.registration__form
-				form.form(action="/", method="post")
+				form.form.js-registration-form(action="/", method="post")
 					.form__top
 						p.form__timer-text!= FORM.timer
 						.timer
@@ -41,10 +41,17 @@ section.registration#registration
 									span.minutes 0
 								.timer__el
 									span.minutes 0
+					input.js-input-date(type="hidden" name="date")
 					.form__inputs
-						input.form__input.input(type="text", name="name" placeholder=FORM.inputName required)
-						input.form__input.input(type="tel", name="phone" placeholder=FORM.inputPhone required)
-						input.form__input.input(type="email", name="email" placeholder=FORM.inputEmail required)
+						.input-wrap.form__input-wrap
+							input.form__input.input-wrap__input.js-input(type="text", name="name" required)
+							span.input-wrap__label.js-label!= FORM.inputName
+						.input-wrap.form__input-wrap
+							input.form__input.input-wrap__input.js-input(type="tel", name="phone" required)
+							span.input-wrap__label.js-label!= FORM.inputPhone
+						.input-wrap.form__input-wrap
+							input.form__input.input-wrap__input.js-input(type="email", name="email" required)
+							span.input-wrap__label.js-label!= FORM.inputEmail
 					button.form__btn.btn!= FORM.button_3
 					.form__checkbox.checkbox
 						label.checkbox__label!= FORM.checkbox

@@ -6,12 +6,19 @@ section.consultation
 			.consultation__top
 				h2.consultation__title.title!= FORM.title
 				p.consultation__desc!= FORM.desc
-			form.form-consultation(action="/" method="post")
+			form.form-consultation.js-registration-form(action="/" method="post")
 				.form-consultation__top
+					input.js-input-date(type="hidden" name="date")
 					.form-consultation__inputs
-						input.form-consultation__input.input(type="text", name="name" placeholder=FORM.inputName required)
-						input.form-consultation__input.input(type="tel", name="phone" placeholder=FORM.inputPhone required)
-						input.form-consultation__input.input(type="email", name="email" placeholder=FORM.inputEmail required)
+						.input-wrap.form-consultation__input-wrap
+							input.form-consultation__input.input-wrap__input.js-input(type="text", name="name" required)
+							span.input-wrap__label.js-label!= FORM.inputName
+						.input-wrap.form-consultation__input-wrap
+							input.form-consultation__input.input-wrap__input.js-input(type="tel", name="phone" required)
+							span.input-wrap__label.js-label!= FORM.inputPhone
+						.input-wrap.form-consultation__input-wrap
+							input.form-consultation__input.input-wrap__input.js-input(type="email", name="email" required)
+							span.input-wrap__label.js-label!= FORM.inputEmail
 					button.form-consultation__btn.btn!= FORM.button_2
 				.form-consultation__checkbox.checkbox
 					label.checkbox__label!= FORM.checkbox

@@ -194,8 +194,10 @@ ul, li
 		position: absolute
 		opacity: 0
 		cursor: pointer
-		height: 0
-		width: 0
+		height: 1px
+		width: 1px
+		top: 9px
+		left: 7px
 		&:checked
 			~ .checkbox__checkmark
 				background-color: $yellow
@@ -223,38 +225,64 @@ ul, li
 			font-size: 14px
 			transition: all .3s
 
-
-
-.input
-	max-width: 100%
-	width: 100%
-	box-sizing: border-box
-	background: #016155
-	border: 1px solid rgba(255, 255, 255, 0.4)
-	border-radius: 5px
-	height: 64px
-	padding: 0 25px
-	font-weight: 500
-	font-size: 20px
-	font-family: 'Inter', sans-serif
-	color: white
-	transition: all .3s
-	+placeholder
+.input-wrap
+	position: relative
+	&__error
+		right: 13px
+		position: absolute
+		top: 16px
+		color: #FF5C5C
+		font-size: 12px
+		font-weight: 500
+		display: none
+	&__label
+		font-weight: 500
+		left: 25px
+		font-weight: 500
+		font-size: 20px
+		color: white
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+		pointer-events: none
+		transition: all .2s
+		+r(1440)
+			left: 20px
+		+r(1300)
+			font-size: 18px
+	&__input
+		max-width: 100%
+		width: 100%
+		box-sizing: border-box
+		background: #016155
+		border: 1px solid rgba(255, 255, 255, 0.4)
+		border-radius: 5px
+		height: 64px
+		padding: 0 25px
 		font-weight: 500
 		font-size: 20px
 		font-family: 'Inter', sans-serif
 		color: white
-	&:hover
-		background: #00544A
-		border: 1px solid rgba(255, 255, 255, 0.7)
-	+r(1440)
-		height: 60px
-		padding: 0 20px
-	+r(1300)
-		height: 56px
-		font-size: 18px
-		+placeholder
+		transition: all .3s
+		padding-bottom: 16px
+		padding-top: 26px
+		&:hover, &:focus
+			background: #00544A
+			border: 1px solid rgba(255, 255, 255, 0.7)
+		&:focus, &.active
+			&~.input-wrap__label
+				font-size: 12px
+				top: 16px
+		&.error
+			background: rgba(97, 1, 1, 0.5)
+			border: 1px solid #FF5C5C
+		+r(1440)
+			height: 60px
+			padding: 20px 20px 9px
+		+r(1300)
+			height: 56px
 			font-size: 18px
+
 
 .btn
 	max-width: 100%

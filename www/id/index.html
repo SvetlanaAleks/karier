@@ -66,12 +66,19 @@
           </div>
           <button class="promo__btn btn js-scroll" href="#registration">Dapatkan konsultasinya</button>
           <div class="promo__form">
-            <form class="form" action="/" method="post">
+            <form class="form js-registration-form" action="/" method="post" data-validation-schema="signup-form">
               <h4 class="form__title">Dapatkan konsultasi tentang kursus</h4>
+              <input class="js-input-date" type="hidden" name="date"/>
               <div class="form__inputs">
-                <input class="form__input input" type="text" name="name" placeholder="Nama" required="required"/>
-                <input class="form__input input" type="tel" name="phone" placeholder="Telepon" required="required"/>
-                <input class="form__input input" type="email" name="email" placeholder="E-mail" required="required"/>
+                <div class="input-wrap form__input-wrap">
+                  <input class="form__input input-wrap__input js-input" type="text" name="name" required="required"/><span class="input-wrap__label js-label">Nama</span><span class="input-wrap__error js-error">error</span>
+                </div>
+                <div class="input-wrap form__input-wrap">
+                  <input class="form__input input-wrap__input js-input" type="tel" name="phone" required="required"/><span class="input-wrap__label js-label">Telepon</span>
+                </div>
+                <div class="input-wrap form__input-wrap">
+                  <input class="form__input input-wrap__input js-input" type="email" name="email" required="required"/><span class="input-wrap__label js-label">E-mail</span><span class="input-wrap__error js-error">error</span>
+                </div>
               </div>
               <button class="form__btn btn">Dapatkan konsultasinya</button>
               <div class="form__checkbox checkbox">
@@ -173,7 +180,7 @@
       <div class="container">
         <div class="preview__video">
           <h2 class="preview__title title title--med">Penjelasan <br> posisi Data Analyst</h2>
-          <div class="youtube" data-id="1jjo4S7-zU8"></div>
+          <div class="youtube" data-id="20E9v5MXrRQ"></div>
         </div>
         <div class="preview__bottom">
           <h4 class="preview__subtitle">Kursus ini adalah bagi mereka yang ingin:</h4>
@@ -386,12 +393,19 @@
             <h2 class="consultation__title title">Dapatkan konsultasi tentang kursus</h2>
             <p class="consultation__desc">Konsultan kami akan menjawab semua pertanyaanmu</p>
           </div>
-          <form class="form-consultation" action="/" method="post">
+          <form class="form-consultation js-registration-form" action="/" method="post">
             <div class="form-consultation__top">
+              <input class="js-input-date" type="hidden" name="date"/>
               <div class="form-consultation__inputs">
-                <input class="form-consultation__input input" type="text" name="name" placeholder="Nama" required="required"/>
-                <input class="form-consultation__input input" type="tel" name="phone" placeholder="Telepon" required="required"/>
-                <input class="form-consultation__input input" type="email" name="email" placeholder="E-mail" required="required"/>
+                <div class="input-wrap form-consultation__input-wrap">
+                  <input class="form-consultation__input input-wrap__input js-input" type="text" name="name" required="required"/><span class="input-wrap__label js-label">Nama</span>
+                </div>
+                <div class="input-wrap form-consultation__input-wrap">
+                  <input class="form-consultation__input input-wrap__input js-input" type="tel" name="phone" required="required"/><span class="input-wrap__label js-label">Telepon</span>
+                </div>
+                <div class="input-wrap form-consultation__input-wrap">
+                  <input class="form-consultation__input input-wrap__input js-input" type="email" name="email" required="required"/><span class="input-wrap__label js-label">E-mail</span>
+                </div>
               </div>
               <button class="form-consultation__btn btn">Kirim permintaan</button>
             </div>
@@ -510,7 +524,7 @@
             </div>
           </div>
           <div class="registration__form">
-            <form class="form" action="/" method="post">
+            <form class="form js-registration-form" action="/" method="post">
               <div class="form__top">
                 <p class="form__timer-text">Tawaran <br> berakhir dalam:</p>
                 <div class="timer">
@@ -530,10 +544,17 @@
                   </div>
                 </div>
               </div>
+              <input class="js-input-date" type="hidden" name="date"/>
               <div class="form__inputs">
-                <input class="form__input input" type="text" name="name" placeholder="Nama" required="required"/>
-                <input class="form__input input" type="tel" name="phone" placeholder="Telepon" required="required"/>
-                <input class="form__input input" type="email" name="email" placeholder="E-mail" required="required"/>
+                <div class="input-wrap form__input-wrap">
+                  <input class="form__input input-wrap__input js-input" type="text" name="name" required="required"/><span class="input-wrap__label js-label">Nama</span>
+                </div>
+                <div class="input-wrap form__input-wrap">
+                  <input class="form__input input-wrap__input js-input" type="tel" name="phone" required="required"/><span class="input-wrap__label js-label">Telepon</span>
+                </div>
+                <div class="input-wrap form__input-wrap">
+                  <input class="form__input input-wrap__input js-input" type="email" name="email" required="required"/><span class="input-wrap__label js-label">E-mail</span>
+                </div>
               </div>
               <button class="form__btn btn">Kirim permintaan</button>
               <div class="form__checkbox checkbox">

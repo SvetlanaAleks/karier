@@ -52,6 +52,7 @@
   },
   "dependencies": {
     "object-fit-images": "^3.2.4",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.32.11"
   }
 }

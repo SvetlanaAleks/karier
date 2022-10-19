@@ -6,8 +6,20 @@ const Controls = (function () {
   //--//
   const btnAccordeon = $(".js-btn-accordeon");
   const contentAccordeon = $(".js-info-accordeon");
-
+  //--//
+  const inputForm = $(".js-input");
+  const label = inputForm.siblings(".js-label");
   return {
+    labelFormActive: function () {
+      inputForm.keyup(function () {
+        const _this = $(this);
+        if (_this.val()) {
+          _this.addClass("active");
+        } else {
+          _this.removeClass("active");
+        }
+      });
+    },
     openReasonsContent: function () {
       btnReasons.on("click", function (e) {
         e.preventDefault();
@@ -39,6 +51,7 @@ const Controls = (function () {
     init: function () {
       Controls.openReasonsContent();
       Controls.openFaqContent();
+      Controls.labelFormActive();
     },
   };
 })();

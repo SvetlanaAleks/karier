@@ -1,11 +1,20 @@
 - var FORM = LANG.form;
 
-form.form(action="/", method="post")
+form.form.js-registration-form(action="/", method="post" data-validation-schema="signup-form")
 	h4.form__title!= FORM.title
+	input.js-input-date(type="hidden" name="date")
 	.form__inputs
-		input.form__input.input(type="text", name="name" placeholder=FORM.inputName required)
-		input.form__input.input(type="tel", name="phone" placeholder=FORM.inputPhone required)
-		input.form__input.input(type="email", name="email" placeholder=FORM.inputEmail required)
+		.input-wrap.form__input-wrap
+			input.form__input.input-wrap__input.js-input(type="text", name="name" required)
+			span.input-wrap__label.js-label!= FORM.inputName
+			span.input-wrap__error.js-error error
+		.input-wrap.form__input-wrap
+			input.form__input.input-wrap__input.js-input(type="tel", name="phone" required)
+			span.input-wrap__label.js-label!= FORM.inputPhone
+		.input-wrap.form__input-wrap
+			input.form__input.input-wrap__input.js-input(type="email", name="email" required)
+			span.input-wrap__label.js-label!= FORM.inputEmail
+			span.input-wrap__error.js-error error
 	button.form__btn.btn!= FORM.button
 	.form__checkbox.checkbox
 		label.checkbox__label!= FORM.checkbox
