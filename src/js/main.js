@@ -5,7 +5,6 @@ import Controls from "./modules/Controls";
 import Sliders from "./modules/Sliders";
 import Menu from "./modules/Menu";
 import Timer from "./modules/Timer";
-import Submit from "./modules/Submit";
 import Forms from "./modules/Forms";
 
 function youtubeShowVideo() {
@@ -43,7 +42,6 @@ $(function () {
   Controls.init();
   Sliders.init();
   Timer.init();
-  // Submit.init();
   Forms.init();
   youtubeShowVideo();
 });

@@ -5,6 +5,7 @@ const Menu = (function () {
   const linkToTarget = $(".js-scroll");
   const overlay = $(".js-overlay");
   const language = $(".js-language");
+
   function scroll(target) {
     const top = target.offset().top;
     $("html, body").animate(
@@ -35,15 +36,16 @@ const Menu = (function () {
         e.preventDefault();
         noScroll.off();
         const _this = $(this);
-        const href = _this.attr("href");
-        const target = $(href);
-
-        if (_this.data("target")) {
-          const target = $(_this.data("target"));
-          scroll(target);
-        }
-        if (target.length) {
-          scroll(target);
+        const target = _this.attr("data-target");
+        if ($(target).length) {
+          $("html, body").animate(
+            {
+              scrollTop: $(target).offset().top,
+            },
+            800
+          );
+        } else {
+          window.location.href = "./index.html" + target;
         }
 
         $(".menu-mobile").removeClass("menu-mobile--active");
