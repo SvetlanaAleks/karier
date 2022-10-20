@@ -8,7 +8,7 @@ export const emailRule = yup
 export const nameRule = yup
   .string()
   .required("Name is required")
-  .matches(/^[a-zA-Zа-яА-Я]{3,25}$/i, "Incorrect")
+  .matches(/^[a-zA-Zа-яА-Я_ ]{3,25}$/i, "Incorrect")
   .min(2, "Name is required");
 export const phoneRule = yup
   .string()
