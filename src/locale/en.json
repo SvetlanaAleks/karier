@@ -694,5 +694,60 @@
         ]
       }
     ]
+  },
+  "success": {
+    "header": {
+      "title": "Thank you for your interest in the Data Analyst course!",
+      "desc": "Our consultant will contact you shortly to answer all your questions."
+    },
+    "main": {
+      "title_small": "While you wait for our call, ",
+      "title": "check out 10 reasons why the profession of data analyst is in such demand today:",
+      "list": [
+        {
+          "title": "1/ Make better business decisions",
+          "text": "Such professional gathers and interprets data sets to derive insights. Based on the insights, they can identify the current situation of the business accurately. Companies can make decisions to improve their situation if it is not in their favor."
+        },
+        {
+          "title": "2/ Can predict future trends",
+          "text": "Such professionals collect the data and analyze it to identify patterns to discern trends. Based on the past trends and statistical analysis, they can predict probable trends in the future."
+        },
+        {
+          "title": "3/ Help in strategizing",
+          "text": "Data analysts can plan out strategies based on predictive analysis. Such strategies are built keeping the upcoming market trends in mind."
+        },
+        {
+          "title": "4/ Make processes more efficient",
+          "text": "Data analysts can analyze a huge amount of data in a short span of time. A lot of insights can be derived through the analyzed data which expedites the process efficiency. This in turn saves time. "
+        },
+        {
+          "title": "5/ Track behavioral changes in customers",
+          "text": "Data analysts can assess the behavior of the consumer towards products and how it has shifted over time. This helps companies in adapting to trends much faster and smoother. "
+        },
+        {
+          "title": "6/ Increase the customer base",
+          "text": "As the company starts tracking customer behavior, it can modify products as per customers’ needs. This attracts customers who will stay with the brand in the long run."
+        },
+        {
+          "title": "7/ Save companies from losses",
+          "text": "Since the predictive analysis has the capability to predict future outcomes, it gives an edge to the companies using this technique. They can avoid investing in projects and processes that do not seem fruitful as per the analysis."
+        },
+        {
+          "title": "8/ Can serve every industry",
+          "text": "The application of data analysis is in almost every industry. Since data is one of the most important assets in the present time, data analyst jobs are high in demand."
+        },
+        {
+          "title": "9/ Data analyst jobs are well paid",
+          "text": "A data analyst salary can reach up to ₹ 11.1 Lakhs during the early career stage. The average analyst salary in India is ₹ 4.3 lakh per annum. Due to the good pay scale, data analyst jobs are popular."
+        },
+        {
+          "title": "10/ Have a bright future",
+          "text": "Since many companies are now working based on data, its analysis is crucial. This is why the demand for data analysts will only grow in the future."
+        }
+      ],
+      "subtitle": "Conclusion",
+      "desc": "Data is a very important resource in this digital age. This enhances the importance of data analysis since raw data has no use until it is analyzed into useful information.",
+      "title_bottom": "As you can see, you are on the right track!  <br> We will contact you soon."
+    }
   }
 }

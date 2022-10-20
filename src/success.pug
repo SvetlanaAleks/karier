@@ -5,13 +5,14 @@ html(lang=LANG.locale)
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     link(rel="stylesheet", href="css/main.css")
-    title Make Profit SRL Terms of Service
+    title Thank you for your interest in the Data Analyst course!
     script.
       var locale = "!{LANG.locale}";
   body
     include templates/mixins/menu.pug
-    +menu('terms', "dark")
-    include templates/privacy/terms.pug
+    +menu('success', "dark")
+    include templates/success/header.pug
+    include templates/success/main.pug
     include templates/footer
     .overlay.js-overlay
 

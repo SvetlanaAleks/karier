@@ -44,6 +44,6 @@ $(function () {
   Sliders.init();
   Timer.init();
   // Submit.init();
+  Forms.init();
   youtubeShowVideo();
-  // Forms.init();
 });

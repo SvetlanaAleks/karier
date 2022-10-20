@@ -20,7 +20,7 @@ section.registration#registration
 							img.date-item__ico(src="img/svg/date_ico_2.svg", alt="ico")
 							p.date-item__text!= REGISTRATION.date2
 			.registration__form
-				form.form.js-registration-form(action="/", method="post")
+				form.form.js-registration-form(action="https://api.apispreadsheets.com/data/QduW22vQumEfA2h6/", method="post" data-validation-schema="signup-form")
 					.form__top
 						p.form__timer-text!= FORM.timer
 						.timer
@@ -43,18 +43,22 @@ section.registration#registration
 									span.minutes 0
 					input.js-input-date(type="hidden" name="date")
 					.form__inputs
-						.input-wrap.form__input-wrap
-							input.form__input.input-wrap__input.js-input(type="text", name="name" required)
+						.input-wrap.form__input-wrap.js-input-wrap
+							input.form__input.input-wrap__input.js-input(type="text", name="name")
 							span.input-wrap__label.js-label!= FORM.inputName
-						.input-wrap.form__input-wrap
-							input.form__input.input-wrap__input.js-input(type="tel", name="phone" required)
+							span.input-wrap__error.js-error
+						.input-wrap.form__input-wrap.js-input-wrap
+							input.form__input.input-wrap__input.js-input(type="tel", name="phone")
 							span.input-wrap__label.js-label!= FORM.inputPhone
-						.input-wrap.form__input-wrap
-							input.form__input.input-wrap__input.js-input(type="email", name="email" required)
+							span.input-wrap__error.js-error
+						.input-wrap.form__input-wrap.js-input-wrap
+							input.form__input.input-wrap__input.js-input(type="email", name="email")
 							span.input-wrap__label.js-label!= FORM.inputEmail
+							span.input-wrap__error.js-error
 					button.form__btn.btn!= FORM.button_3
-					.form__checkbox.checkbox
+					.form__checkbox.checkbox.js-input-wrap
 						label.checkbox__label!= FORM.checkbox
-							input.checkbox__input(type="checkbox" required)
+							input.checkbox__input(type="checkbox" name="checkbox")
 							span.checkbox__checkmark
 								i.fico.fico-check
+							span.checkbox__error.js-error

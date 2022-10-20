@@ -182,11 +182,22 @@ ul, li
 	color: transparentize(#fff, .3)
 	user-select: none
 	transition: all .3s
+
+	&.has-error
+		.checkbox__checkmark
+			border: 1px solid #ff5c5c
+			background: rgba(97,1,1,.5)
 	&:hover
 		color: #FFFFFF
 		.checkbox__checkmark
 			background: #00544A
 			border: 1px solid rgba(255, 255, 255, 0.7)
+	&__error
+		color: #FF5C5C
+		font-size: 13px
+		font-weight: 500
+		pointer-events: none
+		display: block
 	+r(1140)
 		font-size: 14px
 		padding-left: 35px
@@ -227,6 +238,16 @@ ul, li
 
 .input-wrap
 	position: relative
+	&.has-error
+		.input-wrap
+			&__error
+				display: block
+			&__input
+				background: #30332D
+				border: 1px solid #FF5C5C
+				&:-webkit-autofill
+					-webkit-box-shadow: inset 0 0 0 50px #30332D
+					-webkit-text-fill-color: white
 	&__error
 		right: 13px
 		position: absolute
@@ -235,6 +256,7 @@ ul, li
 		font-size: 12px
 		font-weight: 500
 		display: none
+		pointer-events: none
 	&__label
 		font-weight: 500
 		left: 25px
@@ -266,6 +288,9 @@ ul, li
 		transition: all .3s
 		padding-bottom: 16px
 		padding-top: 26px
+		&:-webkit-autofill
+			-webkit-box-shadow: inset 0 0 0 50px #016155
+			-webkit-text-fill-color: white
 		&:hover, &:focus
 			background: #00544A
 			border: 1px solid rgba(255, 255, 255, 0.7)
@@ -273,9 +298,6 @@ ul, li
 			&~.input-wrap__label
 				font-size: 12px
 				top: 16px
-		&.error
-			background: rgba(97, 1, 1, 0.5)
-			border: 1px solid #FF5C5C
 		+r(1440)
 			height: 60px
 			padding: 20px 20px 9px

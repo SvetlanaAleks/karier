@@ -1,12 +1,21 @@
 import * as yup from "yup";
-import { emailRule } from "./ValidationRules";
+import {
+  emailRule,
+  nameRule,
+  phoneRule,
+  checkboxRule,
+} from "./ValidationRules";
 const DOC = $(document);
 const Forms = (function () {
   "use strict";
   //#region Private methods
 
   function getFormDataObject(form) {
-    const data = form.serializeArray();
+    let data = form.serializeArray();
+    form.find("input:checkbox").map(function () {
+      const val = { name: this.name, value: this.checked ? true : false };
+      data.push(val);
+    });
     const dataObj = {};
     for (let i = 0; i < data.length; i++) {
       const field = data[i];
@@ -17,6 +26,9 @@ const Forms = (function () {
 
   const formSchema = yup.object().shape({
     email: emailRule,
+    name: nameRule,
+    phone: phoneRule,
+    checkbox: checkboxRule,
   });
 
   const validationSchemas = {
@@ -25,8 +37,8 @@ const Forms = (function () {
   function setFieldError(field, error) {
     const formInput = $(`[name=${field}]`);
     if (!formInput.length) return;
-    const inputParent = formInput.parents(".input-wrap");
-    const helpBlock = inputParent.find(".input-wrap__error");
+    const inputParent = formInput.parents(".js-input-wrap");
+    const helpBlock = inputParent.find(".js-error");
     if (!inputParent) return;
     if (!error) {
       inputParent.removeClass("has-error");
@@ -75,8 +87,9 @@ const Forms = (function () {
     onSignUpFormSubmit: function () {
       DOC.on("submit", ".js-registration-form", function (e) {
         const _this = $(this);
-        const formID = _this.attr("id");
+        const formID = _this.attr("data-validation-schema");
         if (!formID) return;
+
         try {
           const isValid = validateForm(_this, validationSchemas[formID]);
           if (!isValid) {
@@ -87,15 +100,27 @@ const Forms = (function () {
           e.preventDefault();
           return;
         }
+
         e.preventDefault();
         const action = _this.attr("action");
-        const data = getFormDataObject(_this);
+        var date = new Date();
+        var day = date.getDate();
+        var month = date.getMonth() + 1;
+        var year = date.getFullYear();
+        var timeH = date.getHours();
+        var timeM = date.getMinutes();
+
+        _this
+          .find($(".js-input-date"))
+          .val(`${day}.${month}.${year} / ${timeH}:${timeM}`);
         $.ajax({
           url: action,
-          data: data,
-          method: "POST",
+          type: "POST",
+          contentType: false,
+          processData: false,
+          data: new FormData(this),
           success: function () {
-            _this.addClass("form--success");
+            window.location.href = "success.html";
           },
           error: function ({ responseJSON: data }) {
             if (data) {
@@ -110,10 +135,10 @@ const Forms = (function () {
       });
     },
     onChangeInputs: function () {
-      DOC.on("change", ".input-wrap input", function () {
+      DOC.on("change", ".js-input-wrap input", function () {
         const _this = $(this);
         const value = _this.val();
-        const parent = _this.parents(".input-wrap");
+        const parent = _this.parents(".js-input-wrap");
         if (value.length > 0) {
           parent.addClass("filled");
         } else {
@@ -124,13 +149,13 @@ const Forms = (function () {
         if (!formID) return;
         validateForm($(form), validationSchemas[formID], _this);
       });
-      DOC.on("focus", ".input-wrap input", function () {
+      DOC.on("focus", ".js-input-wrap input", function () {
         const _this = $(this);
         const name = _this.attr("name");
         if (!name) return;
         setFieldError(name, false);
       });
-      DOC.on("blur", ".input-wrap input", function () {
+      DOC.on("blur", ".js-input-wrap input", function () {
         const _this = $(this);
         const form = this.form;
         const _form = $(form);
