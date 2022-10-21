@@ -36,6 +36,81 @@ function youtubeShowVideo() {
   }
 }
 
+// 2. This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement("script");
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName("script")[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// 3. This function creates an <iframe> (and YouTube player) after the API code downloads.
+var player;
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player("player", {
+    videoId: "20E9v5MXrRQ",
+    playerVars: {
+      autoplay: 1,
+      controls: 0,
+      showinfo: 0,
+      rel: 0,
+      modestbranding: 1,
+      loop: 1,
+      playlist: "20E9v5MXrRQ",
+    },
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
+  document.getElementsByClassName(
+    "ytp-pause-overlay ytp-scroll-min"
+  )[0].style.display = "none";
+}
+
+// 4. The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+  player.mute();
+  event.target.playVideo();
+}
+
+function onPlayerStateChange(event) {
+  $(".js-youtube-button").click(function (e) {
+    e.preventDefault();
+    const _this = $(this);
+    const parent = _this.parents(".js-youtube");
+
+    if (player.isMuted()) {
+      player.unMute();
+      player.playVideo();
+      _this.find("span").hide();
+      _this.css({
+        background: `url("../img/svg/pause.svg") no-repeat center top`,
+        "background-size": "100%",
+      });
+      parent.find(".js-youtube-title").hide();
+      parent.css({
+        background: "none",
+      });
+    } else {
+      player.mute();
+      _this.find("span").show();
+      _this.css({
+        background: `url("../img/svg/play.svg") no-repeat center top`,
+        "background-size": "100%",
+      });
+      parent.find(".js-youtube-title").show();
+      parent.css({
+        background:
+          "linear-gradient(317.8deg, rgba(47, 40, 124, 0) 46%, rgba(101, 39, 117, 0.6) 84.98%), linear-gradient(0deg, rgba(23, 41, 39, 0.3), rgba(23, 41, 39, 0.3))",
+      });
+    }
+  });
+}
+
+window.player = player;
+window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+window.onPlayerReady = onPlayerReady;
+
 $(function () {
   objectFitImages();
   Menu.init();
@@ -43,5 +118,5 @@ $(function () {
   Sliders.init();
   Timer.init();
   Forms.init();
-  youtubeShowVideo();
+  // youtubeShowVideo();
 });
