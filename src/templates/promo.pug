@@ -9,6 +9,6 @@ section.promo
 				h1.promo__title.title.title--main!= PROMO.title
 				p.promo__desc!= PROMO.desc
 				+list(PROMO.list).promo__list.list--yellow
-			button.promo__btn.btn.js-scroll(href="#registration")!= PROMO.btn
+			button.promo__btn.btn.js-scroll(data-target="#registration")!= PROMO.btn
 			.promo__form
 				include form

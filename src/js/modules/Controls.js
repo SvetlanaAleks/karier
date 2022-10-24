@@ -4,6 +4,7 @@ const Controls = (function () {
   const contentReasons = $(".js-info-reasons");
   const itemsReasons = $(".js-item-reasons");
   //--//
+  const accordeon = $(".js-accordeon");
   const btnAccordeon = $(".js-btn-accordeon");
   const contentAccordeon = $(".js-info-accordeon");
   //--//
@@ -48,10 +49,16 @@ const Controls = (function () {
         _this.next(contentAccordeon).slideToggle();
       });
     },
+    showFirstFaqItem: function () {
+      const firstElement = accordeon.find(".question:first-child");
+      firstElement.find(contentAccordeon).slideToggle();
+      firstElement.find(btnAccordeon).addClass("active");
+    },
     init: function () {
       Controls.openReasonsContent();
       Controls.openFaqContent();
       Controls.labelFormActive();
+      Controls.showFirstFaqItem();
     },
   };
 })();

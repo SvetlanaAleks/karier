@@ -1,51 +1,54 @@
 .promo
-	.container
-		padding-top: 195px
-		padding-bottom: 95px
-		position: relative
+	padding-top: 195px
+	padding-bottom: 95px
+	position: relative
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		bottom: 0
+		top: 0
+		left: 20px
+		right: 20px
+		border-bottom-right-radius: 40px
+		border-bottom-left-radius: 40px
+		background: $primary url('../img/svg/promo_grid.svg') no-repeat calc(50% - -100px) -166%
+		pointer-events: none
+		z-index: -1
+	+r(1720)
 		&::before
-			content: ''
-			display: block
-			position: absolute
-			bottom: 0
-			top: 0
-			left: -60px
-			right: -60px
-			border-bottom-right-radius: 40px
-			border-bottom-left-radius: 40px
-			background: $primary url('../img/svg/promo_grid.svg') no-repeat center bottom
-			pointer-events: none
-			z-index: -1
-		+r(1440)
-			padding-top: 165px
-			&::before
-				left: -40px
-				right: -40px
-		+r(1300)
-			padding-top: 140px
-			padding-bottom: 75px
-			&::before
-				left: -30px
-				right: -30px
-				background-size: 1220px
-		+r(1024)
-			&::before
-				left: 0
-				right: 0
-		+r(890)
-			padding-top: 120px
-			padding-bottom: 65px
-			&::before
-				background-size: 910px
-		+r(768)
-			padding-bottom: 40px
-		+r(480)
-			padding-top: 140px
-			&::before
-				border-bottom-right-radius: 20px
-				border-bottom-left-radius: 20px
-				background-size: 1730px
-				background-position-x: calc(50% - -100px)
+			background-position-y: -126%
+	+r(1440)
+		padding-top: 165px
+		&::before
+			background-position-y: -400%
+			background-size: 2900px
+	+r(1300)
+		padding-top: 140px
+		padding-bottom: 75px
+		&::before
+			background-position-y: -150%
+	+r(1024)
+		&::before
+			left: 0
+			right: 0
+			background-position-y: 280px
+			background-size: 2300px
+	+r(890)
+		padding-top: 120px
+		padding-bottom: 65px
+	+r(768)
+		padding-bottom: 40px
+		&::before
+			background-position-y: 250px
+			background-size: 1700px
+	+r(480)
+		padding-top: 140px
+		&::before
+			border-bottom-right-radius: 20px
+			border-bottom-left-radius: 20px
+			background-size: 2430px
+			background-position-x: calc(50% - -160px)
 	&__wrapper
 		display: flex
 		// align-items: flex-start

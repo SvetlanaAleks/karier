@@ -49,11 +49,11 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player("player", {
     videoId: "20E9v5MXrRQ",
     playerVars: {
-      autoplay: 1,
-      controls: 0,
+      controls: 1,
       showinfo: 0,
       rel: 0,
       modestbranding: 1,
+      autohide: 0,
       loop: 1,
       playlist: "20E9v5MXrRQ",
     },
@@ -82,10 +82,9 @@ function onPlayerStateChange(event) {
     if (player.isMuted()) {
       player.unMute();
       player.playVideo();
-      _this.find("span").hide();
-      _this.css({
-        background: `url("../img/svg/pause.svg") no-repeat center top`,
-        "background-size": "100%",
+      _this.hide();
+      $("#player").css({
+        "z-index": "0",
       });
       parent.find(".js-youtube-title").hide();
       parent.css({
@@ -93,10 +92,9 @@ function onPlayerStateChange(event) {
       });
     } else {
       player.mute();
-      _this.find("span").show();
-      _this.css({
-        background: `url("../img/svg/play.svg") no-repeat center top`,
-        "background-size": "100%",
+      _this.show();
+      $("#player").css({
+        "z-index": "-1",
       });
       parent.find(".js-youtube-title").show();
       parent.css({
