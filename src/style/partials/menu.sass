@@ -20,16 +20,18 @@
 				color: #D0D0D0
 	&__wrapper
 		display: flex
-		+r(1300)
+		+r(1720)
 			justify-content: space-between
 		+r(890)
 			align-items: center
-	&__logo
+	&__logo-link
 		margin-left: -28px
 		margin-right: 110px
+		+r(1720)
+			margin-right: 0
 		+r(1440)
 			margin-left: -15px
-			margin-right: 80px
+			// margin-right: 80px
 		+r(1300)
 			max-width: 120px
 			margin-right: 0
@@ -40,6 +42,8 @@
 			max-width: 100px
 		+r(890)
 			max-width: 140px
+	&__logo
+		width: 100%
 	&__nav
 		display: flex
 		align-items: flex-end
@@ -75,12 +79,12 @@
 		.language__link
 			+nlt
 				margin-right: 33px
+		+r(1720)
+			margin-left: 0
 		+r(1440)
 			.language__link
 				+nlt
 					margin-right: 22px
-		+r(1300)
-			margin-left: 0
 		+r(1024)
 			.language__link
 				+nlt
