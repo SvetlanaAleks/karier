@@ -1,17 +1,14 @@
 .preview
-	padding-bottom: 50px
+	padding-bottom: 100px
+	+r(1440)
+		padding-bottom: 50px
 	.container
-		width: 1640px
-		+r(1720)
-			width: 1410px
-		+r(1440)
-			width: 1250px
-		+r(1300)
-			width: 1120px
-		+r(1140)
-			width: 1010px
-		+r(1024)
+		width: 1880px
+		+r(1920)
 			width: 100%
+			padding-left: 20px
+			padding-right: 20px
+		+r(1024)
 			padding: 0
 	&__video
 		width: 100%
@@ -106,7 +103,7 @@
 			span
 				display: none
 	&__bottom
-		margin-top: -60px
+		margin-top: -80px
 		padding: 130px 60px 50px
 		border-radius: 40px
 		background: $pink
@@ -115,9 +112,9 @@
 		position: relative
 		z-index: -2
 		+r(1440)
-			padding: 95px 40px 30px
+			padding: 110px 40px 30px
 		+r(1140)
-			padding: 85px 30px 20px
+			padding: 100px 30px 20px
 		+r(890)
 			display: block
 		+r(480)
@@ -130,7 +127,7 @@
 		color: $garkGreen
 		font-size: 40px
 		margin-right: 40px
-		max-width: 260px
+		max-width: 300px
 		width: 100%
 		+r(1720)
 			font-size: 38px
@@ -138,7 +135,7 @@
 			max-width: 250px
 		+r(1440)
 			font-size: 36px
-			max-width: 230px
+			max-width: 270px
 		+r(1140)
 			font-size: 32px
 			max-width: 200px
@@ -155,15 +152,19 @@
 		+r(595)
 			display: block
 	&__item
-		+r(1720)
+		max-width: 400px
+		width: 100%
+		+nlt
+			margin-right: 50px
+		+r(1920)
 			br
 				display: none
-		+nlt
-			margin-right: 40px
 		+r(1440)
+			max-width: calc(100%/3)
 			+nlt
 				margin-right: 30px
 		+r(595)
+			max-width: 100%
 			+nlt
 				margin-right: 0
 				padding-bottom: 13px
@@ -176,14 +177,9 @@
 		display: flex
 		align-items: center
 		color: $garkGreen
-		+r(1440)
-			max-width: 270px
-		+r(1140)
-			max-width: 100%
-			width: auto
 	.fico
 		font-size: 58px
-		margin-right: 60px
+		margin-right: 80px
 		+r(1720)
 			font-size: 55px
 			margin-right: 50px
@@ -200,11 +196,13 @@
 	span
 		font-size: 24px
 		line-height: 120%
+		width: 66%
 		display: inline-block
 		+r(1720)
 			font-size: 22px
 		+r(1440)
 			font-size: 20px
+			width: 100%
 		+r(1140)
 			font-size: 18px
 		+r(768)
@@ -221,17 +219,11 @@
 	position: relative
 	cursor: pointer
 .youtube, iframe
-	// width: 118%
-	// height: 118%
 	width: 100%
 	height: 100%
 	z-index: -1
 	position: relative
 	background: $pink
-	// top: 54%
-	top: 50%
-	left: 50%
-	transform: translate(-50%, -50%)
 
 .youtube .thumb
 	bottom: 0
