@@ -9,6 +9,21 @@
 		padding-top: 25px
 	+r(480)
 		padding-top: 32px
+	.container
+		width: 1760px
+		+r(1920)
+			width: 100%
+			padding-left: 80px
+			padding-right: 80px
+		+r(1440)
+			padding-left: 70px
+			padding-right: 70px
+		+r(1300)
+			padding-left: 60px
+			padding-right: 60px
+		+r(1024)
+			padding-left: 30px
+			padding-right: 30px
 	&--dark
 		.nav__item
 			color: $garkGreen
@@ -20,21 +35,12 @@
 				color: #D0D0D0
 	&__wrapper
 		display: flex
-		+r(1720)
-			justify-content: space-between
+		justify-content: space-between
 		+r(890)
 			align-items: center
 	&__logo-link
-		margin-left: -28px
-		margin-right: 110px
-		+r(1720)
-			margin-right: 0
-		+r(1440)
-			margin-left: -15px
-			// margin-right: 80px
 		+r(1300)
 			max-width: 120px
-			margin-right: 0
 		+r(1140)
 			margin-left: 0
 			max-width: 110px
@@ -75,7 +81,7 @@
 	&__language
 		display: flex
 		align-items: flex-end
-		margin-left: auto
+		width: 139px
 		.language__link
 			+nlt
 				margin-right: 33px

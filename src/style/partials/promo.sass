@@ -1,7 +1,7 @@
 .promo
 	.container
-		padding-top: 195px
-		padding-bottom: 95px
+		padding-top: 235px
+		padding-bottom: 135px
 		position: relative
 		&::before
 			content: ''
@@ -13,18 +13,20 @@
 			right: -60px
 			border-bottom-right-radius: 40px
 			border-bottom-left-radius: 40px
-			background: $primary url('../img/svg/promo_grid.svg') no-repeat calc(50% - -100px) -166%
+			background: $primary url('../img/svg/promo_grid.svg') no-repeat calc(50% - -115px) -294%
 			pointer-events: none
 			z-index: -1
-		+r(1720)
+		+r(1920)
 			&::before
-				background-position-y: -126%
 				left: 20px
 				right: 20px
+		+r(1720)
+			&::before
+				background-position: calc(50% - -115px) -214%
 		+r(1440)
 			padding-top: 165px
 			&::before
-				background-position-y: -400%
+				background-position: calc(50% - -115px) -814%
 				background-size: 2900px
 		+r(1300)
 			padding-top: 140px
@@ -52,6 +54,20 @@
 				border-bottom-left-radius: 20px
 				background-size: 2430px
 				background-position-x: calc(50% - -160px)
+		width: 1760px
+		+r(1920)
+			width: 100%
+			padding-left: 80px
+			padding-right: 80px
+		+r(1440)
+			padding-left: 70px
+			padding-right: 70px
+		+r(1300)
+			padding-left: 60px
+			padding-right: 60px
+		+r(1024)
+			padding-left: 30px
+			padding-right: 30px
 	&__wrapper
 		display: flex
 		// align-items: flex-start
@@ -61,9 +77,9 @@
 		+r(768)
 			display: block
 	&__info
-		max-width: 920px
+		max-width: 68%
 		width: 100%
-		padding-top: 19px
+		padding-top: 32px
 		display: flex
 		flex-direction: column
 		+r(1720)
@@ -94,7 +110,7 @@
 		line-height: 120%
 		margin-bottom: 56px
 		display: inline-block
-		margin-left: 6px
+		margin-left: 13px
 		// +r(1720)
 		// 	font-size: 28px
 		// 	margin-bottom: 50px
