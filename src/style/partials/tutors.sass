@@ -1,5 +1,5 @@
 .tutors
-	padding-top: 70px
+	padding-top: 90px
 	padding-bottom: 140px
 	+r(1440)
 		padding-top: 50px
@@ -11,6 +11,19 @@
 		padding-top: 0
 	+r(890)
 		padding-bottom: 50px
+	.container
+		width: 1760px
+		+r(1920)
+			width: 100%
+			padding-left: 80px
+			padding-right: 80px
+		+r(1440)
+			padding-left: 70px
+			padding-right: 0px
+		+r(1300)
+			padding-left: 60px
+		+r(1024)
+			padding-left: 30px
 	&__title
 		margin-bottom: 81px
 		color: $garkGreen
@@ -30,24 +43,15 @@
 			br
 				display: block
 	&__slider
-		margin-left: calc(50% - 740px)
-		+r(1720)
-			margin-left: calc(50% - 630px)
 		+r(1440)
-			margin-left: calc(50% - 570px)
-		+r(1300)
-			margin-left: calc(50% - 510px)
-		+r(1140)
-			margin-left: calc(50% - 450px)
+			margin-left: 20px
 		+r(1024)
-			margin-left: 40px
-		+r(480)
-			margin-left: 30px
+			margin-left: 10px
 	.slick-slide
-		margin: 0 20px
+		margin: 0 25px
 		transition: all .3s
 		position: relative
-		max-width: 480px
+		max-width: 550px
 		width: 100%
 		&::after
 			content: ''
@@ -63,24 +67,34 @@
 		&.slick-active
 			&::after
 				background: none
+		+r(1920)
+			max-width: calc(100%/3 - 50px)
 		+r(1720)
-			max-width: 410px
+			max-width: calc(100%/3 - 30px)
 			margin: 0 15px
 		+r(1440)
-			max-width: 370px
+			max-width: 460px
 		+r(1300)
-			max-width: 330px
+			max-width: 430px
 		+r(1140)
-			max-width: 300px
+			max-width: 380px
 		+r(1024)
 			margin: 0 10px
+			max-width: 355px
+		+r(768)
 			max-width: 305px
+			&::after
+				display: none
 	.slick-list
-		margin: 0 -20px
+		margin: 0 -25px
 		+r(1720)
 			margin: 0 -15px
 		+r(1024)
 			margin: 0 -10px
+	.slick-track
+		+rm(1441)
+			width: auto !important
+			transform: none !important
 	.slick-arrow
 		top: -155px
 		&.next
@@ -96,28 +110,22 @@
 		+r(1440)
 			top: -130px
 			&.next
-				left: 1100px
+				left: auto
+				right: 70px
 			&.prev
-				left: 1030px
+				left: auto
+				right: 140px
 		+r(1300)
 			top: -110px
 			&.next
-				left: 990px
+				right: 60px
 			&.prev
-				left: 935px
-		+r(1140)
-			top: -100px
-			&.next
-				left: 875px
-			&.prev
-				left: 820px
+				right: 120px
 		+r(1024)
 			top: -15.5%
 			&.next
-				left: auto
 				right: 30px
 			&.prev
-				left: auto
 				right: 85px
 		+r(890)
 			top: -12%
@@ -154,47 +162,47 @@
 	border-bottom-right-radius: 30px
 	border-right: 1px solid #CFCFCF
 	border-bottom: 1px solid #CFCFCF
-	min-height: 904px
+	min-height: 790px
 	display: flex !important
 	flex-direction: column
 	align-items: flex-start
 	height: 100%
-	padding-bottom: 25px
+	padding-bottom: 37px
 	+r(1720)
-		min-height: 850px
+		min-height: 820px
 	+r(1440)
-		min-height: 760px
-		padding-bottom: 20px
+		min-height: 740px
+		padding-bottom: 25px
 	+r(1300)
-		min-height: 660px
+		min-height: 710px
+	+r(1140)
+		min-height: 690px
 	+r(1024)
 		min-height: 590px
+	+r(768)
+		min-height: 600px
 	+r(480)
 		min-height: 578px
 	&__img
 		margin-bottom: 56px
-		max-width: 440px
+		max-width: 500px
 		width: 100%
+		+r(1920)
+			max-width: 91%
 		+r(1720)
-			max-width: 380px
+			max-width: 94%
 			margin-bottom: 45px
 		+r(1440)
-			max-width: 340px
 			margin-bottom: 35px
 		+r(1300)
-			max-width: 300px
 			margin-bottom: 20px
-		+r(1140)
-			max-width: 270px
-		+r(1024)
-			max-width: 280px
 		+r(480)
 			margin-bottom: 26px
 	&__name
 		font-weight: 500
 		font-size: 32px
 		line-height: 100%
-		margin-bottom: 20px
+		margin-bottom: 26px
 		color: $garkGreen
 		+r(1720)
 			font-size: 30px
@@ -208,40 +216,35 @@
 			margin-bottom: 15px
 	&__post
 		font-size: 18px
+		line-height: 140%
 		color: $primary
-		margin-bottom: 40px
+		margin-bottom: 10px
+		width: 75%
 		+r(1720)
 			font-size: 17px
-			margin-bottom: 35px
 		+r(1440)
 			width: 90%
 			line-height: 120%
-			margin-bottom: 25px
 		+r(1300)
 			font-size: 16px
-		+r(480)
-			margin-bottom: 20px
 	&__text
-		max-width: 415px
-		width: 100%
-		font-size: 24px
-		line-height: 140%
+		font-size: 18px
+		line-height: 150%
 		color: transparentize($garkGreen, .3)
-		+r(1720)
-			font-size: 22px
-			max-width: 90%
-		+r(1440)
-			font-size: 20px
+		width: 80%
+		margin-bottom: 30px
 		+r(1300)
-			font-size: 18px
+			margin-bottom: 20px
 		+r(1024)
 			font-size: 16px
-	&__logo
+			width: 90%
+	&__link
+		display: block
 		margin-top: auto
-		+r(1440)
-			transform: scale(.9)
-			transform-origin: bottom left
-		+r(1300)
-			transform: scale(.8)
-		+r(1024)
-			transform: scale(.6)
+	.fico
+		font-size: 28px
+		color: $garkGreen
+		transition: all .3s
+		&:hover
+			color: $primary
+

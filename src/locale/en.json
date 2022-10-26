@@ -168,29 +168,14 @@
     "title": "Meet your tutors",
     "sliders": [
       {
-        "name": "Lukmanto Fengge",
-        "post": "Senior Data Analyst at Accubits Technologies Inc",
-        "text": "15 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+        "name": "Vinson Ciawandy",
+        "post": "Senior Data Scientist at one of the biggest e-commerce companies in Indonesia",
+        "text": "Data Scientist with experience in 5 different industries: E-commerce, сonsulting, education, telco, finance. Winner of 4 data analytics competitions. Trained more than 200 students in data analytics and data science."
       },
       {
-        "name": "Saif Pelamonia",
-        "post": "Data Scientist at Ice House",
-        "text": "8 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        "name": "Slamet Tirta Agusalim",
-        "post": "Guru of data analytics at DOXA Digital",
-        "text": "10 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        "name": "Lukmanto Fengge",
-        "post": "Senior Data Analyst at Accubits Technologies Inc",
-        "text": "15 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-      },
-      {
-        "name": "Saif Pelamonia",
-        "post": "Data Scientist at Ice House",
-        "text": "8 years of data analytics experience in such companies as Google, Facebook and Tesla. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "name": "Wahyu Herlambang",
+        "post": "Senior Data Analyst ",
+        "text": "5+ years of experience in data analytics. High expertise in solution of highly complex tasks and standardization of data. Experience in several industrial fields such as financial services and technology. High level of competences in data analysis, building models, creating dashboards and doing data storytelling."
       },
       {
         "name": "Slamet Tirta Agusalim",

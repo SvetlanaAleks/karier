@@ -17,6 +17,24 @@ const Sliders = (function () {
         dotsClass: "slick-dots",
         variableWidth: true,
         infinite: false,
+        responsive: [
+          {
+            breakpoint: 1441,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              variableWidth: true,
+            },
+          },
+          {
+            breakpoint: 769,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              variableWidth: true,
+            },
+          },
+        ],
       });
     },
     storiesSliders: function () {
