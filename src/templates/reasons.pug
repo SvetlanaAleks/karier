@@ -10,7 +10,11 @@ section.reasons#reasons
 					i.fico.fico-arrow
 				.reasons__bottom.js-info-reasons(style="display: block")
 					.reasons__content
-						h2.reasons__title.title.title--med!= REASONS.title_1
+						.reasons__wrap-title
+							h2.reasons__title.title.title--med!= REASONS.title_1
+							.reasons__label.reasons__label--desc
+								img.reasons__label-ico(src="img/label_ico.png", alt="")
+								p.reasons__label-text!= REASONS.label
 						+list(REASONS.list_1).reasons__list.list--green
 			.reasons__item.reasons__item--pink.js-item-reasons
 				.reasons__top.js-btn-reasons
@@ -18,8 +22,9 @@ section.reasons#reasons
 					i.fico.fico-arrow
 				.reasons__bottom.js-info-reasons
 					.reasons__content
-						h2.reasons__title.title.title--med!= REASONS.title_2
+						.reasons__wrap-title
+							h2.reasons__title.title.title--med!= REASONS.title_2
 						+list(REASONS.list_2).reasons__list.list--pink
-		.reasons__label
+		.reasons__label.reasons__label--mob
 			img.reasons__label-ico(src="img/label_ico.png", alt="")
 			p.reasons__label-text!= REASONS.label
