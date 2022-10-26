@@ -1,6 +1,21 @@
 .program
 	padding-top: 47px
 	padding-bottom: 100px
+	.container
+		width: 1760px
+		+r(1920)
+			width: 100%
+			padding-left: 80px
+			padding-right: 80px
+		+r(1440)
+			padding-left: 70px
+			padding-right: 70px
+		+r(1300)
+			padding-left: 60px
+			padding-right: 60px
+		+r(1024)
+			padding-left: 30px
+			padding-right: 30px
 	+r(1440)
 		padding-top: 40px
 		padding-bottom: 80px
@@ -14,7 +29,7 @@
 		padding-bottom: 40px
 	&__title
 		color: $garkGreen
-		margin-bottom: 65px
+		margin-bottom: 90px
 		font-size: 188px
 		line-height: 90%
 		width: 70%
@@ -40,43 +55,32 @@
 
 .program-item
 	width: 100%
-	max-width: 480px
-	min-height: 415px
+	max-width: 31.5%
+	min-height: 440px
 	padding-top: 55px
 	padding-bottom: 20px
 	&:not(:nth-of-type(3n+1))
-		max-width: 520px
-		padding-left: 40px
+		max-width: 34%
+		padding-left: 50px
 	&:not(:nth-of-type(3n))
 		border-right: 1px solid transparentize(#022723, .8)
 	&:nth-of-type(-n+3)
 		border-bottom: 1px solid transparentize(#022723, .8)
-		padding-top: 15px
+		padding-top: 0
 	+r(1720)
-		max-width: 410px
 		&:not(:nth-of-type(3n+1))
-			max-width: 440px
 			padding-left: 30px
 	+r(1440)
-		max-width: 370px
 		padding-top: 45px
-		&:not(:nth-of-type(3n+1))
-			max-width: 400px
+		min-height: 400px
 	+r(1300)
-		max-width: 330px
 		padding-top: 35px
 		min-height: 365px
-		&:not(:nth-of-type(3n+1))
-			max-width: 360px
 	+r(1140)
-		max-width: 300px
 		padding-top: 30px
 		min-height: 345px
 		&:not(:nth-of-type(3n+1))
-			max-width: 320px
 			padding-left: 20px
-		&:nth-of-type(-n+3)
-			padding-top: 10px
 	+r(1024)
 		max-width: 31%
 		padding-bottom: 20px
@@ -102,7 +106,7 @@
 			margin-bottom: 28px
 	&__photo-wrap
 		height: 155px
-		margin-bottom: 52px
+		margin-bottom: 59px
 		display: flex
 		align-items: center
 		+r(1440)
@@ -139,7 +143,7 @@
 			transform: scale(0.9)
 	&__wrap
 		color: $garkGreen
-		width: 65%
+		width: 58%
 		+r(1720)
 			width: 76%
 		+r(1440)
@@ -149,13 +153,10 @@
 			width: 100%
 	&__title
 		font-weight: 500
-		font-size: 28px
+		font-size: 24px
 		line-height: 120%
-		margin-bottom: 16px
-		+r(1440)
-			font-size: 26px
+		margin-bottom: 21px
 		+r(1300)
-			font-size: 24px
 			margin-bottom: 10px
 		+r(1140)
 			font-size: 22px
