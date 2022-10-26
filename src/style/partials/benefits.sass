@@ -1,19 +1,32 @@
 .benefits
-	padding: 56px 0
+	padding: 53px 0
 	+r(1440)
 		padding: 40px 0
 	+r(1024)
 		padding: 33px 0
+	.container
+		width: 1760px
+		+r(1920)
+			width: 100%
+			padding-left: 80px
+			padding-right: 80px
+		+r(1440)
+			padding-left: 70px
+			padding-right: 70px
+		+r(1300)
+			padding-left: 60px
+			padding-right: 60px
+		+r(1024)
+			padding-left: 30px
+			padding-right: 30px
 	&__list
 		display: flex
 		justify-content: space-between
 		+r(890)
 			flex-wrap: wrap
 	&__item
-		max-width: 350px
+		max-width: calc(100%/4)
 		width: 100%
-		+r(1720)
-			max-width: 300px
 		+r(890)
 			max-width: 50%
 		+r(480)
@@ -23,9 +36,9 @@
 	display: flex
 	align-items: center
 	padding-top: 7px
-	padding-bottom: 19px
+	padding-bottom: 5px
 	&:not(:first-of-type)
-		margin-left: 40px
+		margin-left: 50px
 	+nlt
 		border-right: 1px solid transparentize(#022723, .8)
 	+r(1720)
@@ -92,16 +105,18 @@
 	&__text
 		color: $garkGreen
 		font-weight: 500
-		font-size: 18px
+		font-size: 22px
 		line-height: 120%
-		width: 62%
+		max-width: 244px
 		+r(1720)
-			width: 66%
+			max-width: 61%
+			font-size: 20px
 		+r(1440)
-			font-size: 16px
+			font-size: 17px
 		+r(1300)
-			width: 72%
+			max-width: 72%
+			font-size: 16px
 		+r(1140)
-			width: 67%
+			max-width: 67%
 		+r(480)
-			width: 100%
+			max-width: 100%
