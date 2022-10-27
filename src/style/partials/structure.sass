@@ -2,21 +2,6 @@
 	padding-bottom: 70px
 	+r(768)
 		padding-bottom: 40px
-	.container
-		width: 1760px
-		+r(1920)
-			width: 100%
-			padding-left: 80px
-			padding-right: 80px
-		+r(1440)
-			padding-left: 70px
-			padding-right: 70px
-		+r(1300)
-			padding-left: 60px
-			padding-right: 60px
-		+r(1024)
-			padding-left: 30px
-			padding-right: 30px
 	&__top
 		position: relative
 		padding-top: 90px
@@ -49,6 +34,10 @@
 			&::after
 				left: -40px
 				right: -40px
+		+r(1024)
+			&:after
+				left: -30px
+				right: -30px
 		+r(890)
 			padding-top: 40px
 			padding-bottom: 50px

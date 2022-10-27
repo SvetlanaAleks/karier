@@ -18,11 +18,15 @@
 		+r(1440)
 			padding: 60px 0
 			&::before
-				left: -40px
-				right: -40px
+				left: -50px
+				right: -50px
 		+r(1300)
 			padding: 40px 0
 			&::before
+				left: -40px
+				right: -40px
+		+r(1024)
+			&:before
 				left: -30px
 				right: -30px
 		+r(480)
@@ -46,7 +50,7 @@
 			margin-bottom: 32px
 	&__title
 		font-size: 64px
-		margin-right: 47px
+		margin-right: 87px
 		+r(1720)
 			font-size: 60px
 		+r(1440)
@@ -117,17 +121,9 @@
 			display: block
 			margin-bottom: 32px
 	&__input-wrap
-		max-width: 370px
+		max-width: 430px
 		width: 100%
-		+r(1720)
-			max-width: 300px
-		+r(1440)
-			max-width: 275px
-		+r(1300)
-			max-width: 250px
-		+r(1140)
-			max-width: 220px
-		+r(1024)
+		+r(1920)
 			max-width: calc(100%/3 - 10px)
 		+r(768)
 			max-width: calc(100%/3 - 5px)
@@ -136,16 +132,10 @@
 			+nlt
 				margin-bottom: 8px
 	&__btn
-		max-width: 350px
-		+r(1720)
-			max-width: 300px
-		+r(1440)
-			max-width: 270px
-		+r(1300)
-			max-width: 240px
-		+r(1140)
-			max-width: 220px
+		max-width: 400px
+		+r(1920)
+			max-width: 23%
 		+r(1024)
-			max-width: 200px
+			max-width: 32%
 		+r(595)
 			max-width: 100%
