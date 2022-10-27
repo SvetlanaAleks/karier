@@ -1,7 +1,7 @@
 .footer
-	.container
+	.wrapper
 		position: relative
-		padding-top: 61px
+		padding-top: 75px
 		padding-bottom: 95px
 		&::before
 			content: ''
@@ -16,15 +16,13 @@
 			background: #E3F5F3 url('../img/svg/footer_bg.svg') no-repeat right bottom
 			pointer-events: none
 			z-index: -1
+		+r(1920)
+			&::before
+				left: 20px
+				right: 20px
 		+r(1440)
 			padding-bottom: 75px
-			&::before
-				left: -40px
-				right: -40px
 		+r(1300)
-			&::before
-				left: -30px
-				right: -30px
 				background-size: 1370px
 		+r(1024)
 			&::before
@@ -40,6 +38,12 @@
 		position: absolute
 		left: 0
 		top: -25px
+		+r(1920)
+			left: 80px
+		+r(1440)
+			left: 70px
+		+r(1300)
+			left: 60px
 		+r(1024)
 			left: 30px
 		+r(1024)
@@ -48,25 +52,15 @@
 			left: 20px
 			top: -16px
 	&__col-rigth
-		max-width: 740px
+		max-width: 53%
 		width: 100%
-		+r(1300)
-			max-width: 540px
 		+r(1024)
 			max-width: 58%
 		+r(768)
 			max-width: 100%
 	&__col-left
-		max-width: 480px
+		max-width: 31.4%
 		width: 100%
-		+r(1720)
-			max-width: 410px
-		+r(1440)
-			max-width: 370px
-		+r(1300)
-			max-width: 330px
-		+r(1140)
-			max-width: 300px
 		+r(1024)
 			max-width: 37%
 		+r(768)
@@ -74,8 +68,8 @@
 	&__top
 		display: flex
 		justify-content: space-between
-		align-items: flex-end
-		margin-bottom: 95px
+		align-items: flex-start
+		margin-bottom: 86px
 		+r(1440)
 			margin-bottom: 75px
 		+r(768)
@@ -84,7 +78,7 @@
 			margin-bottom: 47px
 	&__rigth-top
 		color: $garkGreen
-		font-size: 26px
+		font-size: 24px
 		line-height: 140%
 		padding-top: 22px
 		+r(1440)
@@ -139,7 +133,7 @@
 			margin-bottom: 8px
 	&__contact-link
 		color: $garkGreen
-		font-size: 26px
+		font-size: 24px
 		font-weight: 500
 		text-decoration: none
 		transition: all .3s
@@ -171,7 +165,7 @@
 		&:hover
 			border-bottom: 1px solid $primary
 		+nlt
-			margin-right: 40px
+			margin-right: 50px
 		+r(1300)
 			font-size: 16px
 			+nlt
