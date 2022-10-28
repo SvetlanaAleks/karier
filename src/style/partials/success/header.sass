@@ -1,6 +1,6 @@
 .header-success
 	text-align: center
-	.container
+	.wrapper
 		padding-top: 230px
 		padding-bottom: 147px
 		position: relative
@@ -17,18 +17,16 @@
 			background: $ligthgreen
 			pointer-events: none
 			z-index: -1
+		+r(1920)
+			&::before
+				left: 20px
+				right: 20px
 		+r(1440)
 			padding-top: 200px
 			padding-bottom: 125px
-			&::before
-				left: -40px
-				right: -40px
 		+r(1300)
 			padding-top: 160px
 			padding-bottom: 95px
-			&::before
-				left: -30px
-				right: -30px
 		+r(1024)
 			&::before
 				left: 0

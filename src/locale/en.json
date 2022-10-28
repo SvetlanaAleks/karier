@@ -27,7 +27,7 @@
   "promo": {
     "label": "6-month course",
     "title": "Data Analyst",
-    "desc": "Rise your income up to <span class=\"yellow\">1500&nbsp;USD</span> per month!",
+    "desc": "Rise your income up to <br> <span class=\"yellow\">1500&nbsp;USD</span> per month!",
     "list": ["Job guarantee", "Beginner-friendly"],
     "btn": "Get the consultation"
   },
