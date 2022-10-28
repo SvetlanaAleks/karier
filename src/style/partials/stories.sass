@@ -78,8 +78,30 @@
 .story
 	display: flex !important
 	align-items: flex-end
+	position: relative
 	+r(595)
 		display: block !important
+	&__decor
+		position: absolute
+		bottom: -13%
+		left: -1.2%
+		z-index: -1
+		width: 100%
+		max-width: 31%
+		+r(1024)
+			max-width: 29%
+			min-width: 215px
+		+r(595)
+			max-width: 360px
+			min-width: auto
+			bottom: auto
+			top: 4%
+			left: -2%
+		+r(480)
+			max-width: 106%
+			top: 5%
+			left: -3%
+			width: auto
 	&__photo
 		margin-right: 5.5%
 		max-width: 28.5%
@@ -92,6 +114,8 @@
 			max-width: 335px
 			margin-right: 0
 			margin-bottom: 17px
+		+r(480)
+			max-width: 100%
 	&__name
 		color: $primary
 		font-size: 24px

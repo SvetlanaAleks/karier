@@ -2,6 +2,7 @@
 
 mixin story(photo, name, text)
 	.story
+		img.story__decor(src="img/svg/stories_bg.svg", alt="")
 		img.story__photo(src=photo, alt=name)
 		.story__info
 			p.story__name!= name
