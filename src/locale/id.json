@@ -176,6 +176,11 @@
         "name": "Wahyu Herlambang",
         "post": "Senior Data Analyst ",
         "text": "5+ years of experience in data analytics. High expertise in solution of highly complex tasks and standardization of data. Experience in several industrial fields such as financial services and technology. High level of competences in data analysis, building models, creating dashboards and doing data storytelling."
+      },
+      {
+        "name": "Ratu Giava",
+        "post": "HRD at digital international company",
+        "text": "6+ years of experience in HR-management and recruiting. Experienced in filling more than 50 vacancies in digital and IT."
       }
     ]
   },
@@ -202,19 +207,25 @@
     ]
   },
   "stories": {
-    "title": "Kisah sukses <br> siswa kami",
+    "title": "Our students success stories",
     "slider": [
       {
-        "name": "Zebadiah Dongoran",
-        "text": "After completing this course, I successfully got a job as a data analyst at Biwabits. The information in the course is well structured, practical tasks help to quickly gain the necessary skills."
+        "name": "Asan Kusmayadi",
+        "text": [
+          "Increased his salary by 4 times in the last 3 years.",
+          "Asan started his career with digital marketing, after graduating the Diponegoro University in Semarang. After 1.5 years he left his job and and realized that he didn’t want to look for a new job in this area. So he started to learn Data Analysis with YouTube videos and articles at the Internet. In 2 month he decided to join his first full Data Analyst cource and found a menthor there. In 8 month he already had his firct job as junior Data Analyst.",
+          "Now Asan speaks of his decision to join thr course as the most important in his career."
+        ]
       }
     ]
   },
   "registration": {
     "title": "Mulailah karirmu dalam bidang data analytics sekarang",
     "label": "Early birds offer:",
-    "date1": "Kursus mulai: <br> Oktober 20",
-    "date2": "Durasi: <br> 6 bulan"
+    "date1": "Kursus mulai: <br> November 10",
+    "date2": "Durasi: <br> 6 bulan",
+    "price_new": "Rp 1.500.000",
+    "price_old": "Rp 3.500.000"
   },
   "faq": {
     "title": "FAQ",

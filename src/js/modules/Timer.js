@@ -8,7 +8,7 @@ const Timer = (function () {
     timerMeetup: function () {
       function timer() {
         const today = new Date();
-        const countDownDate = new Date(2022, 10, 20, 0, 0);
+        const countDownDate = new Date(2022, 10, 10, 0, 0);
         const distance = countDownDate - today;
 
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));

@@ -1,6 +1,6 @@
 - var TUTORS = LANG.tutors;
 
-mixin tutor(decor, photo, name, post, text, logo, link, key)
+mixin tutor(decor, photo, name, post, text, link, key)
 	.tutor(class="tutor--"+key)
 		img.tutor__decor(src=decor, alt="")
 		img.tutor__img(src=photo, alt="")
@@ -10,23 +10,21 @@ mixin tutor(decor, photo, name, post, text, logo, link, key)
 		a.tutor__link(href=link target="_blank")
 			i.fico.fico-in
 
-
 -
 	const decors = [
 		'img/svg/tutor_1_bg.svg',
-		'img/svg/tutor_2_bg.svg'
+		'img/svg/tutor_2_bg.svg',
+		'img/svg/tutor_1_bg.svg'
 	];
 	const photos = [
 		'img/tutor_1.jpg',
-		'img/tutor_2.jpg'
-	];
-	const logos = [
-		'img/tutor_logo_1.png',
-		'img/tutor_logo_2.png'
+		'img/tutor_2.jpg',
+		'img/tutor_3.jpg'
 	];
 	const links = [
 		'https://www.linkedin.com/in/vinsonciawandy/',
-		'https://www.linkedin.com/in/herlambangwahyu/'
+		'https://www.linkedin.com/in/herlambangwahyu/',
+		'#'
 	];
 
 section.tutors#tutors
@@ -34,4 +32,4 @@ section.tutors#tutors
 		h2.tutors__title.title.title--med!= TUTORS.title
 		.tutors__slider.js-tutors-slider
 			each tutor, key in TUTORS.sliders
-				+tutor(decors[key], photos[key], tutor.name, tutor.post, tutor.text, logos[key], links[key], key)
+				+tutor(decors[key], photos[key], tutor.name, tutor.post, tutor.text, links[key], key)

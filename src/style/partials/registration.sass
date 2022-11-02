@@ -37,7 +37,6 @@
 			padding: 30px
 		+r(768)
 			max-width: 100%
-		+r(595)
 			padding-bottom: 0
 		+r(480)
 			padding-left: 20px
@@ -52,8 +51,9 @@
 			margin-bottom: 30px
 		+r(768)
 			margin-bottom: 30px
+			font-size: 60px
+		+r(595)
 			font-size: 40px
-			max-width: 70%
 		+r(480)
 			max-width: 99%
 			margin-bottom: 17px
@@ -61,33 +61,20 @@
 		display: flex
 		align-items: flex-end
 		margin-top: auto
-		+r(1024)
-			display: block
-		+r(768)
-			display: flex
-			align-items: center
-		+r(595)
+		+r(1720)
 			display: block
 	&__price-wrap
-		max-width: 350px
-		width: 100%
-		margin-right: 100px
+		margin-right: 50px
 		+r(1720)
-			margin-right: 50px
+			margin-right: 0
+			margin-bottom: 10px
 		+r(1440)
-			max-width: 320px
 			margin-right: 30px
 		+r(1300)
-			max-width: 290px
 			margin-right: 20px
 		+r(1024)
 			margin-right: 0
 			margin-bottom: 30px
-		+r(768)
-			margin-bottom: 0
-			margin-right: 20px
-		+r(595)
-			margin-right: 0
 	&__price-label
 		font-size: 18px
 		line-height: 120%
@@ -102,18 +89,25 @@
 		white-space: nowrap
 	&__price-new
 		margin-right: 16px
-		font-size: 96px
+		font-size: 90px
 		+r(1440)
-			font-size: 92px
 			margin-right: 12px
 		+r(1300)
 			font-size: 86px
 			margin-right: 10px
+		+r(1024)
+			font-size: 78px
+		+r(890)
+			font-size: 54px
 		+r(768)
 			font-size: 80px
 			margin-right: 16px
+		+r(595)
+			font-size: 65px
+		+r(480)
+			font-size: 50px
 		+r(374)
-			font-size: 74px
+			font-size: 44px
 		
 	&__price-old
 		font-size: 40px
@@ -123,10 +117,16 @@
 			font-size: 36px
 		+r(1300)
 			font-size: 32px
+		+r(890)
+			font-size: 26px
 		+r(768)
 			font-size: 40px
+		+r(595)
+			font-size: 35px
+		+r(480)
+			font-size: 26px
 		+r(374)
-			font-size: 36px
+			font-size: 20px
 	&__date
 		display: flex
 		align-items: center
@@ -150,7 +150,7 @@
 		+r(768)
 			margin: 0 auto
 			min-width: auto
-			max-width: 380px
+			max-width: 100%
 		+r(595)
 			max-width: 100%
 
@@ -168,25 +168,24 @@
 		padding-left: 40px
 	+nlt
 		border-right: 1px solid transparentize(white, 0.5)
+	+r(1920)
+		max-width: inherit
+		width: auto
+		padding-right: 30px
 	+r(1720)
-		max-width: 175px
 		&:not(:first-of-type)
 			padding-left: 30px
 	+r(1300)
-		max-width: 155px
 		&:not(:first-of-type)
 			padding-left: 20px
 	+r(1140)
-		padding: 10px 0
-		max-width: 140px
-	+r(1024)
-		max-width: 150px
+		padding-top: 10px
+		padding-bottom: 10px
+		padding-right: 20px
 	+r(768)
-		max-width: 110px
-	+r(595)
 		border-bottom: 0
 		max-width: 50%
-	+r(480)
+		width: 100%
 		justify-content: center
 		padding: 10px
 		text-align: center
@@ -206,7 +205,7 @@
 		line-height: 120%
 		+r(1300)
 			font-size: 16px
-		+r(595)
+		+r(768)
 			br
 				display: none
 		+r(480)

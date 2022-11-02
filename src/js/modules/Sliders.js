@@ -19,7 +19,7 @@ const Sliders = (function () {
         infinite: false,
         responsive: [
           {
-            breakpoint: 1441,
+            breakpoint: 1141,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
@@ -27,7 +27,7 @@ const Sliders = (function () {
             },
           },
           {
-            breakpoint: 596,
+            breakpoint: 768,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,

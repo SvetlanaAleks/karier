@@ -10,8 +10,8 @@ section.registration#registration
 					.registration__price-wrap
 						p.registration__price-label!= REGISTRATION.label
 						.registration__price
-							p.registration__price-new.yellow 60 USD
-							p.registration__price-old 100 USD
+							p.registration__price-new.yellow!= REGISTRATION.price_new
+							p.registration__price-old!= REGISTRATION.price_old
 					.registration__date
 						.date-item
 							img.date-item__ico(src="img/svg/date_ico_1.svg", alt="ico")

@@ -12,41 +12,21 @@
 	+r(890)
 		padding-bottom: 50px
 	.wrapper
-		display: flex
-		align-items: flex-start
-		justify-content: space-between
-		background: url('../img/svg/tutors_bg.svg') no-repeat left 340px
-		+r(1920)
-			background-position: 80px 340px
-			background-size: 400px
-		+r(1720)
-			background-position: 80px 340px
-			background-size: 25%
-		+r(1440)
-			background-position: 70px 47%
-		+r(1024)
-			background: none
-			display: block
-		+r(595)
+		+r(1140)
 			padding-right: 0
+	&__slider
+		display: flex
+		align-items: stretch
+		justify-content: space-between
+		flex-wrap: nowrap
+		+r(1140)
+			flex-wrap: wrap
 	&__title
 		margin-bottom: 81px
 		color: $garkGreen
-		font-size: 116px
-		width: 31.5%
-		margin-right: 50px
 		flex-shrink: 0
 		br
 			display: none
-		+r(1720)
-			margin-right: 30px
-			font-size: 100px
-		+r(1440)
-			font-size: 90px
-		+r(1300)
-			font-size: 80px
-		+r(1140)
-			font-size: 70px
 		+r(1024)
 			width: 100%
 			margin-bottom: 50px
@@ -59,54 +39,37 @@
 				display: block
 		+r(480)
 			margin-bottom: 25px
-	&__slider
-		margin-right: 40px
-		margin-top: -70px
-		+r(1440)
-			margin-right: 0
-		+r(1024)
-			margin-top: 0
-			margin-right: 0
 	.slick-slide
-		margin-left: 100px
 		transition: all .3s
 		position: relative
-		max-width: 50%
+		max-width: 550px
 		width: 100%
-		margin-top: 60px
-		margin-left: 20px
-		margin-right: 20px
-		&[data-slick-index="0"]
-			margin-right: 80px
-			margin-top: 144px
+		margin: 0 25px
+		>div
+			height: 100%
+		+r(1920)
+			max-width: calc(100%/3 - 50px)
 		+r(1720)
-			&[data-slick-index="0"]
-				margin-right: 8%
-		+r(1440)
-			&[data-slick-index="0"]
-				margin-right: 3%
+			max-width: calc(100%/3 - 30px)
+			margin: 0 15px
+		+r(1140)
+			max-width: 420px
 		+r(1024)
-			margin: 40px 20px
-			&[data-slick-index="0"]
-				margin-top: 120px
-				margin-right: 20px
-		+r(595)
-			margin: 20px
-			&[data-slick-index="0"]
-				margin: 20px
+			max-width: 350px
+			margin: 0 10px
 		+r(595)
 			max-width: 305px
 		+r(480)
 			max-width: 280px
 	.slick-list
-		+r(1024)
-			margin: -40px -20px
-		+r(595)
-			margin: 0 -10px
-			padding: 0 10px
+		margin: 0 -25px
+		+r(1720)
+			margin: 0 -15px
+		+r(1140)
+			margin: 0
 	.slick-track
-		+rm(596)
-			display: flex
+		height: 100%
+		+rm(1141)
 			width: 100% !important
 			transform: none !important
 	.slick-arrow
@@ -135,6 +98,8 @@
 				right: 60px
 			&.prev
 				right: 120px
+		+r(1140)
+			top: -18%
 		+r(1024)
 			top: -15.5%
 			&.next
@@ -169,19 +134,21 @@
 		+r(1140)
 			width: 940px
 		+r(1024)
-			width: auto
-			margin-left: -30px
+			width: 100%
 		+r(480)
 			margin-top: 23px
 
 .tutor
-	min-height: 500px
+	height: 100%
 	display: flex !important
 	flex-direction: column
 	align-items: flex-start
-	height: 100%
 	position: relative
-	&--0
+	border-bottom-right-radius: 40px
+	border-right: 1px solid #CFCFCF
+	border-bottom: 1px solid #CFCFCF
+	padding-bottom: 25px
+	&--0, &--3
 		.tutor__decor
 			top: -50px
 			right: -20px
@@ -202,17 +169,18 @@
 				top: -4%
 			+r(595)
 				top: -20px
-	+r(1720)
-		min-height: auto
 	&__decor
 		position: absolute
 		z-index: -1
+		display: none !important
 	&__img
 		margin-bottom: 56px
-		max-width: 500px
+		max-width: 90%
 		width: 100%
+		+r(1920)
 		+r(1720)
 			margin-bottom: 45px
+			max-width: 94%
 		+r(1440)
 			margin-bottom: 35px
 		+r(1300)
@@ -240,9 +208,10 @@
 		line-height: 140%
 		color: $primary
 		margin-bottom: 24px
-		width: 75%
+		width: 90%
 		+r(1720)
 			font-size: 17px
+			width: 94%
 		+r(1440)
 			width: 90%
 			line-height: 120%
@@ -253,11 +222,12 @@
 		font-size: 24px
 		line-height: 150%
 		color: transparentize($garkGreen, .3)
-		max-width: 500px
+		max-width: 90%
 		width: 100%
 		margin-bottom: 25px
 		+r(1720)
 			font-size: 22px
+			width: 94%
 		+r(1300)
 			font-size: 20px
 			margin-bottom: 20px

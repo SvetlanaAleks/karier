@@ -50,72 +50,47 @@
 				display: block
 		+r(480)
 			width: 230px
-	.slick-arrow
-		top: -140px
-		&.next
-			right: 0
-		&.prev
-			right: 80px
-		+r(1440)
-			top: -130px
-			&.prev
-				right: 70px
-		+r(1300)
-			top: -95px
-			&.prev
-				right: 55px
-		+r(1024)
-			top: -44%
-		+r(768)
-			top: calc(50% - 84%)
-			&.prev
-				right: 40px
-		+r(595)
-			top: calc(50% - 72%)
-		+r(480)
-			top: -21%
 
 .story
-	display: flex !important
+	display: flex
 	align-items: flex-end
 	position: relative
-	+r(595)
-		display: block !important
+	+r(768)
+		display: block
 	&__decor
 		position: absolute
-		bottom: -13%
+		bottom: -7%
 		left: -1.2%
 		z-index: -1
 		width: 100%
-		max-width: 31%
+		max-width: 34%
 		+r(1024)
-			max-width: 29%
 			min-width: 215px
-		+r(595)
+		+r(768)
 			max-width: 360px
 			min-width: auto
 			bottom: auto
 			top: 4%
 			left: -2%
 		+r(480)
-			max-width: 106%
-			top: 5%
-			left: -3%
-			width: auto
+			max-width: 280px
 	&__photo
-		margin-right: 5.5%
-		max-width: 28.5%
+		margin-right: 50px
+		max-width: 31.5%
 		width: 100%
+		+r(1720)
+			margin-right: 30px
 		+r(1024)
-			max-width: 27%
-			min-width: 200px
-			margin-right: 3%
-		+r(595)
+			margin-right: 20px
+		+r(768)
 			max-width: 335px
+			height: 260px
 			margin-right: 0
 			margin-bottom: 17px
+			+object-fit(cover)
 		+r(480)
-			max-width: 100%
+			max-width: 255px
+			height: 230px
 	&__name
 		color: $primary
 		font-size: 24px
@@ -132,9 +107,12 @@
 		color: $garkGreen
 		font-size: 40px
 		line-height: 130%
-		max-width: 75%
-		width: 100%
 		margin-bottom: -10px
+		p
+			&:first-of-type
+				font-weight: 500
+			+nlt
+				margin-bottom: 25px
 		+r(1720)
 			font-size: 36px
 		+r(1440)
@@ -143,9 +121,11 @@
 			font-size: 28px
 			margin-bottom: 0
 		+r(1140)
-			font-size: 26px
+			font-size: 24px
+			p
+				+nlt
+					margin-bottom: 15px
 		+r(1024)
-			max-width: 85%
 			font-size: 2.4vw
 		+r(768)
 			font-size: 18px
@@ -153,3 +133,6 @@
 			font-size: 16px
 			line-height: 140%
 			color: transparentize($garkGreen, .3)
+			p
+				&:first-of-type
+					color: $garkGreen

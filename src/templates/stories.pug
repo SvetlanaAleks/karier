@@ -6,7 +6,9 @@ mixin story(photo, name, text)
 		img.story__photo(src=photo, alt=name)
 		.story__info
 			p.story__name!= name
-			p.story__text!= text
+			.story__text
+				each item in text
+					p!= item
 
 -
 	const photoStoty = [

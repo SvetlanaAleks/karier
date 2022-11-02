@@ -107,58 +107,87 @@
       {
         "ttl": "1/ Introduction to data analytics",
         "list": [
-          "What is data analytics?",
-          "Difference between data analytics and data science",
-          "Different types of data analysis",
-          "Some data analytics real-world case studies",
-          "What does a data analyst do?",
-          "What is the typical process that a data analyst will follow?",
-          "Tools and techniques do data analysts use"
+          "Who data analysts are and what do they do.",
+          "What companies need data analysts.",
+          "What skills needed for becoming a data analyst."
         ]
       },
       {
-        "ttl": "2/ Statistics for data analysis",
+        "ttl": "2/ Key business metrics",
         "list": [
-          "Statistics from basics",
-          "Descriptive Statistics - Mean, Mode, Median, Standard Deviation, Variance and Interquartile Range",
-          "Probability Distributions - Normal, Binomial and Poisson",
-          "Statistical tests"
+          "What are business metrics.",
+          "4 main KPIs in business.",
+          "How to track the metrics."
         ]
       },
       {
-        "ttl": "3/ Data analysis in Excel",
+        "ttl": "3/ Statistics for data analysis",
         "list": [
-          "Preparation of data and data cleaning",
-          "Creating flexible data aggregations using pivot tables",
-          "Representing data visually using pivot charts",
-          "Calculating margins and other common ratios using calculation on pivot table",
-          "Filtering data using slicers in multiple pivot tables",
-          "Creating aggregate reports using formula based techniques"
+          "What is statistics and probability.",
+          "Random Variable. Histogram and boxplot.",
+          "Data distribution. Distribution measurements.",
+          "Correlation analysis and common data distribution.",
+          "Hyphotesis Testing."
         ]
       },
       {
-        "ttl": "4/ Working with Google Data Studio, Power BI and Tableau",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "4/ Data analysis in Excel ",
+        "list": [
+          "Intro to Excel: Feature.",
+          "Basic Formulas, functions, and charts.",
+          "Solve business case using Excel."
+        ]
       },
       {
         "ttl": "5/ SQL and working with databases",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "list": [
+          "Intro to SQL: Definition, Goal, and Use.",
+          "Basic SQL Statements: write database queries using SQL.",
+          "Solve business case using SQL."
+        ]
       },
       {
-        "ttl": "6/ Dashboards and key business metrics",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "6/ Automation of analytics using Python",
+        "list": [
+          "Python and Jupyter Installation.",
+          "Programming basics (Variable, Operations, Conditional Statement, For loops).",
+          "Functions and Data Structure in Python.",
+          "Data Mungling. Data Visualization.",
+          "Statistical test."
+        ]
       },
       {
-        "ttl": "7/ Practical application of data analytics to marketing and sales",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "7/ Data visualization with Google Data Studio, Power BI? and Tableau",
+        "list": [
+          "Intro to Data Visualization: Definition, Goal, and Use.",
+          "Selection of effective visual concepts.",
+          "Create data visualization using Tableau.",
+          "Create data visualization using Google Data Studio."
+        ]
       },
       {
-        "ttl": "8/ Automation of analytics using Python",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "8/ Practical application of data analytics to marketing and sales ",
+        "list": [
+          "Customer acquisition funnel.",
+          "Customer Analytics and applications.",
+          "Customer Segmentation with RFM analysis."
+        ]
       },
       {
-        "ttl": "9/ Career in data analytics",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "9/ Final project and creation of portfolio",
+        "list": [
+          "Formulate a business problem and select relevant metrics.",
+          "Draw problem-oriented conclusions.",
+          "Prepare a clear business presentation"
+        ]
+      },
+      {
+        "ttl": "9/ Career in data analytics and preparation for job search",
+        "list": [
+          "Hiring Process.",
+          "CV and Cover Letter.",
+          "Common interview questions."
+        ]
       }
     ],
     "label": "You will not find a faster way to get to the profession of Data Analyst",
@@ -176,6 +205,11 @@
         "name": "Wahyu Herlambang",
         "post": "Senior Data Analyst ",
         "text": "5+ years of experience in data analytics. High expertise in solution of highly complex tasks and standardization of data. Experience in several industrial fields such as financial services and technology. High level of competences in data analysis, building models, creating dashboards and doing data storytelling."
+      },
+      {
+        "name": "Ratu Giava",
+        "post": "HRD at digital international company",
+        "text": "6+ years of experience in HR-management and recruiting. Experienced in filling more than 50 vacancies in digital and IT."
       }
     ]
   },
@@ -205,16 +239,22 @@
     "title": "Our students success stories",
     "slider": [
       {
-        "name": "Zebadiah Dongoran",
-        "text": "After completing this course, I successfully got a job as a data analyst at Biwabits. The information in the course is well structured, practical tasks help to quickly gain the necessary skills."
+        "name": "Asan Kusmayadi",
+        "text": [
+          "Increased his salary by 4 times in the last 3 years.",
+          "Asan started his career with digital marketing, after graduating the Diponegoro University in Semarang. After 1.5 years he left his job and and realized that he didn’t want to look for a new job in this area. So he started to learn Data Analysis with YouTube videos and articles at the Internet. In 2 month he decided to join his first full Data Analyst cource and found a menthor there. In 8 month he already had his firct job as junior Data Analyst.",
+          "Now Asan speaks of his decision to join thr course as the most important in his career."
+        ]
       }
     ]
   },
   "registration": {
     "title": "Start your career in data analytics right now",
     "label": "Early birds offer:",
-    "date1": "Start: <br> October 20",
-    "date2": "Duration: <br> 6 month"
+    "date1": "Start: <br> November 10",
+    "date2": "Duration: <br> 6 month",
+    "price_new": "Rp 1.500.000",
+    "price_old": "Rp 3.500.000"
   },
   "faq": {
     "title": "frequently asked&nbsp;questions",
