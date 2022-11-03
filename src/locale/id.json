@@ -105,60 +105,89 @@
     "title": "Struktur kursus",
     "questionArray": [
       {
-        "ttl": "1/ Pengantar Data Analytics",
+        "ttl": "1/ Introduction to data analytics",
         "list": [
-          "Apa itu data analytics?",
-          "Perbedaan antara data analytics dan data science",
-          "Berbagai jenis data analysis",
-          "Beberapa studi kasus nyata dalam data analytics ",
-          "Apa yang dilakukan seorang data analyst?",
-          "Apa proses khas yang akan diikuti oleh seorang Data Analyst?",
-          "Alat dan teknik yang digunakan oleh seorang Data Analyst?"
+          "Who data analysts are and what do they do.",
+          "What companies need data analysts.",
+          "What skills needed for becoming a data analyst."
         ]
       },
       {
-        "ttl": "2/ Statistik untuk seorang Data Analyst",
+        "ttl": "2/ Key business metrics",
         "list": [
-          "Statistik dari dasar-dasar",
-          "Statistik Deskriptif - Rata-rata, Modus, Median, Standar Deviasi, Varians dan Jangkauan Interkuartil",
-          "Distribusi Probabilitas - Normal, Binomial dan Poisson",
-          "Tes statistik"
+          "What are business metrics.",
+          "4 main KPIs in business.",
+          "How to track the metrics."
         ]
       },
       {
-        "ttl": "3/ Data analysis dalam Excel",
+        "ttl": "3/ Statistics for data analysis",
         "list": [
-          "Persiapan data dan pembersihan data",
-          "Membuat agregasi data yang fleksibel menggunakan PivotTable",
-          "Merepresentasikan data secara visual menggunakan diagram Pivot",
-          "Menghitung margin dan rasio umum lainnya menggunakan perhitungan pada PivotTable",
-          "Memfilter data menggunakan Slicer di beberapa PivotTable",
-          "Membuat laporan agregat menggunakan teknik berbasis rumus."
+          "What is statistics and probability.",
+          "Random Variable. Histogram and boxplot.",
+          "Data distribution. Distribution measurements.",
+          "Correlation analysis and common data distribution.",
+          "Hyphotesis Testing."
         ]
       },
       {
-        "ttl": "4/ Bekerja dengan Google Data Studio, Power BI dan Tableau",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "4/ Data analysis in Excel ",
+        "list": [
+          "Intro to Excel: Feature.",
+          "Basic Formulas, functions, and charts.",
+          "Solve business case using Excel."
+        ]
       },
       {
-        "ttl": "5/ SQL dan bekerja dengan database",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "5/ SQL and working with databases",
+        "list": [
+          "Intro to SQL: Definition, Goal, and Use.",
+          "Basic SQL Statements: write database queries using SQL.",
+          "Solve business case using SQL."
+        ]
       },
       {
-        "ttl": "6/ Dashboard dan metrik bisnis utama",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "6/ Automation of analytics using Python",
+        "list": [
+          "Python and Jupyter Installation.",
+          "Programming basics (Variable, Operations, Conditional Statement, For loops).",
+          "Functions and Data Structure in Python.",
+          "Data Mungling. Data Visualization.",
+          "Statistical test."
+        ]
       },
       {
-        "ttl": "7/ Penggunaan praktis analitik data untuk marketing dan penjualan",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "7/ Data visualization with Google Data Studio, Power BI? and Tableau",
+        "list": [
+          "Intro to Data Visualization: Definition, Goal, and Use.",
+          "Selection of effective visual concepts.",
+          "Create data visualization using Tableau.",
+          "Create data visualization using Google Data Studio."
+        ]
       },
       {
-        "ttl": "8/ Otomasi analisis menggunakan Python",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "8/ Practical application of data analytics to marketing and sales ",
+        "list": [
+          "Customer acquisition funnel.",
+          "Customer Analytics and applications.",
+          "Customer Segmentation with RFM analysis."
+        ]
       },
       {
-        "ttl": "9/ Karir di bidang Data Analytics",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus omnis suscipit reprehenderit numquam temporibus, dolor corporis? Quod, totam debitis!"
+        "ttl": "9/ Final project and creation of portfolio",
+        "list": [
+          "Formulate a business problem and select relevant metrics.",
+          "Draw problem-oriented conclusions.",
+          "Prepare a clear business presentation"
+        ]
+      },
+      {
+        "ttl": "9/ Career in data analytics and preparation for job search",
+        "list": [
+          "Hiring Process.",
+          "CV and Cover Letter.",
+          "Common interview questions."
+        ]
       }
     ],
     "label": "Kau tidak akan menemukan cara lebih cepat untuk menjadi Data Analyst",
