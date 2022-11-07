@@ -3,6 +3,7 @@ const Timer = (function () {
   const daysTo = $(".days");
   const hoursTo = $(".hours");
   const minutesTo = $(".minutes");
+  const secondsTo = $(".seconds");
 
   return {
     timerMeetup: function () {
@@ -20,7 +21,9 @@ const Timer = (function () {
           (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
         );
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+        seconds = seconds < 10 ? "0" + seconds : "" + seconds;
         minutes = minutes < 10 ? "0" + minutes : "" + minutes;
         hours = hours < 10 ? "0" + hours : "" + hours;
         days = days < 10 ? "0" + days : "" + days;
@@ -28,10 +31,12 @@ const Timer = (function () {
         days = ("" + days).split("");
         hours = ("" + hours).split("");
         minutes = ("" + minutes).split("");
+        seconds = ("" + seconds).split("");
 
         Timer.timeToHtml(daysTo, days);
         Timer.timeToHtml(hoursTo, hours);
         Timer.timeToHtml(minutesTo, minutes);
+        Timer.timeToHtml(secondsTo, seconds);
       }
       setInterval(timer, 1000);
     },
