@@ -1,6 +1,7 @@
 {
   "locale": "en",
   "title": "Karier — Online courses",
+  "description": "Introduction to Data Analytics. 5 steps to get into new highly-paid remote profession.",
   "menu": {
     "nav": [
       {
@@ -252,10 +253,10 @@
   "registration": {
     "title": "Start your career in data analytics right now",
     "label": "Early birds offer:",
-    "date1": "Start: <br> November 10",
+    "date1": "Start: <br> November 16",
     "date2": "Duration: <br> 6 month",
     "price_new": "Rp 1.500.000",
-    "price_old": "Rp 3.500.000"
+    "price_old": "/ month"
   },
   "faq": {
     "title": "frequently asked&nbsp;questions",

@@ -1,6 +1,7 @@
 {
   "locale": "id",
   "title": "Karier — Online courses",
+  "description": "Pengantar Analisis Data. 5 langkah untuk masuk ke profesi remote yang dibayar tinggi",
   "menu": {
     "nav": [
       {
@@ -252,10 +253,10 @@
   "registration": {
     "title": "Mulailah karirmu dalam bidang data analytics sekarang",
     "label": "Early birds offer:",
-    "date1": "Kursus mulai: <br> November 10",
+    "date1": "Kursus mulai: <br> November 16",
     "date2": "Durasi: <br> 6 bulan",
     "price_new": "Rp 1.500.000",
-    "price_old": "Rp 3.500.000"
+    "price_old": "/ bulan"
   },
   "faq": {
     "title": "FAQ",
