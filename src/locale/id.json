@@ -107,88 +107,88 @@
     "title": "Struktur kursus",
     "questionArray": [
       {
-        "ttl": "1/ Introduction to data analytics",
+        "ttl": "1/ Data Analytics",
         "list": [
-          "Who data analysts are and what do they do.",
-          "What companies need data analysts.",
-          "What skills needed for becoming a data analyst."
+          "Data Analyst itu siapa dan apa yang mereka lakukan.",
+          "Perusahaan mana yang membutuhkan Data Analytics.",
+          "Keterampilan apa yang dibutuhkan untuk menjadi Data Analyst."
         ]
       },
       {
-        "ttl": "2/ Key business metrics",
+        "ttl": "2/ Metrik bisnis utama",
         "list": [
-          "What are business metrics.",
-          "4 main KPIs in business.",
-          "How to track the metrics."
+          "Apa itu metrik bisnis.",
+          "4 KPI bisnis utama.",
+          "Bagaimana melacak metrik."
         ]
       },
       {
-        "ttl": "3/ Statistics for data analysis",
+        "ttl": "3/ Statistik untuk Analisis Data",
         "list": [
-          "What is statistics and probability.",
-          "Random Variable. Histogram and boxplot.",
-          "Data distribution. Distribution measurements.",
-          "Correlation analysis and common data distribution.",
-          "Hyphotesis Testing."
+          "Apa itu statistik dan probabilitas.",
+          "Bilangan acak. Histogram dan grafik persegi panjang.",
+          "Distribusi data. Pengukuran distribusi.",
+          "Analisis korelasi dan distribusi data umum.",
+          "Pengujian hipotesis."
         ]
       },
       {
-        "ttl": "4/ Data analysis in Excel ",
+        "ttl": "4/ Analisis data di Excel",
         "list": [
-          "Intro to Excel: Feature.",
-          "Basic Formulas, functions, and charts.",
-          "Solve business case using Excel."
+          "Pengantar Excel: Fungsi.",
+          "Rumus, fungsi, dan diagram utama.",
+          "Pecahkan kasus bisnis dengan bantuan Excel."
         ]
       },
       {
-        "ttl": "5/ SQL and working with databases",
+        "ttl": "5/ SQL dan bekerja dengan database",
         "list": [
-          "Intro to SQL: Definition, Goal, and Use.",
-          "Basic SQL Statements: write database queries using SQL.",
-          "Solve business case using SQL."
+          "Pengantar SQL: definisi, tujuan dan penggunaan.",
+          "Instruksi dasar SQL: menulis kueri di database dengan menggunakan SQL.",
+          "Pecahkan kasus bisnis dengan bantuan SQL."
         ]
       },
       {
-        "ttl": "6/ Automation of analytics using Python",
+        "ttl": "6/ Otomatisasi analitik menggunakan Python",
         "list": [
-          "Python and Jupyter Installation.",
-          "Programming basics (Variable, Operations, Conditional Statement, For loops).",
-          "Functions and Data Structure in Python.",
-          "Data Mungling. Data Visualization.",
-          "Statistical test."
+          "Instalasi Python dan Jupyter.",
+          "Dasar-dasar pemrograman (Variabel, Operasi, Pernyataan Bersyarat, For loops).",
+          "Fungsi dan struktur data di Python.",
+          "Data Mungling. Visualisasi data.",
+          "Uji statistik."
         ]
       },
       {
-        "ttl": "7/ Data visualization with Google Data Studio, Power BI? and Tableau",
+        "ttl": "7/ Visualisasi data dengan Google Data Studio, Power BI, dan Tableau",
         "list": [
-          "Intro to Data Visualization: Definition, Goal, and Use.",
-          "Selection of effective visual concepts.",
-          "Create data visualization using Tableau.",
-          "Create data visualization using Google Data Studio."
+          "Pengantar Visualisasi data: definisi, tujuan dan penggunaan.",
+          "Pilihan konsep visual yang efektif.",
+          "Membuat visualisasi data dengan bantuan Tableau.",
+          "Membuat visualisasi data dengan bantuan Google Data Studio."
         ]
       },
       {
-        "ttl": "8/ Practical application of data analytics to marketing and sales ",
+        "ttl": "8/ Aplikasi praktis dari analisis data untuk pemasaran dan penjualan",
         "list": [
-          "Customer acquisition funnel.",
-          "Customer Analytics and applications.",
-          "Customer Segmentation with RFM analysis."
+          "Corong akuisisi pelanggan.",
+          "Analisis pelanggan dan aplikasi.",
+          "Segmentasi pelanggan dengan bantuan analisis RFM."
         ]
       },
       {
-        "ttl": "9/ Final project and creation of portfolio",
+        "ttl": "9/ Draf proyek akhir dan pembuatan portofolio",
         "list": [
-          "Formulate a business problem and select relevant metrics.",
-          "Draw problem-oriented conclusions.",
-          "Prepare a clear business presentation"
+          "Rumuskan tujuan bisnis dan pilih metrik yang cocok.",
+          "Membuat kesimpulan yang terfokus pada pemecahan masalah.",
+          "Siapkan presentasi bisnis yang jelas."
         ]
       },
       {
-        "ttl": "9/ Career in data analytics and preparation for job search",
+        "ttl": "9/ Karir di bidang analisis data dan persiapan pencarian kerja",
         "list": [
-          "Hiring Process.",
-          "CV and Cover Letter.",
-          "Common interview questions."
+          "Perekrutan.",
+          "CV dan surat lamaran kerja.",
+          "Pertanyaan umum wawancara kerja."
         ]
       }
     ],
@@ -200,18 +200,18 @@
     "sliders": [
       {
         "name": "Vinson Ciawandy",
-        "post": "Senior Data Scientist at one of the biggest e-commerce companies in Indonesia",
-        "text": "Data Scientist with experience in 5 different industries: E-commerce, сonsulting, education, telco, finance. Winner of 4 data analytics competitions. Trained more than 200 students in data analytics and data science."
+        "post": "Senior Data Scientist di salah satu perusahaan e-commerce terbesar di Indonesia",
+        "text": "Data Scientist dengan pengalaman di 5 industri berbeda: E-commece, konsultasi, pendidikan, telekomunikasi, keuangan. Pemenang 4 kompetisi analisis data. Melatih lebih dari 200 siswa dalam analisis data dan ilmu data."
       },
       {
         "name": "Wahyu Herlambang",
-        "post": "Senior Data Analyst ",
-        "text": "5+ years of experience in data analytics. High expertise in solution of highly complex tasks and standardization of data. Experience in several industrial fields such as financial services and technology. High level of competences in data analysis, building models, creating dashboards and doing data storytelling."
+        "post": "Senior Data Analyst",
+        "text": "5+ tahun pengalaman dalam analisis data. Keahlian tinggi dalam solusi tugas yang sangat kompleks dan standarisasi data. Pengalaman di beberapa bidang industri seperti jasa keuangan dan teknologi. Kompetensi tingkat tinggi dalam analisis data, membangun model, membuat dasbor, dan melakukan penceritaan data."
       },
       {
         "name": "Ratu Giava",
-        "post": "HRD at digital international company",
-        "text": "6+ years of experience in HR-management and recruiting. Experienced in filling more than 50 vacancies in digital and IT."
+        "post": "HRD di perusahaan internasional digital",
+        "text": "6+ tahun pengalaman dalam manajemen dan perekrutan. Berpengalaman mengisi lebih dari 50 lowongan di bidang digital dan IT."
       }
     ]
   },
@@ -238,14 +238,14 @@
     ]
   },
   "stories": {
-    "title": "Our students success stories",
+    "title": "Kisah Sukses Siswa Kami",
     "slider": [
       {
         "name": "Asan Kusmayadi",
         "text": [
-          "Increased his salary by 4 times in the last 3 years.",
-          "Asan started his career with digital marketing, after graduating the Diponegoro University in Semarang. After 1.5 years he left his job and and realized that he didn’t want to look for a new job in this area. So he started to learn Data Analysis with YouTube videos and articles at the Internet. In 2 month he decided to join his first full Data Analyst cource and found a menthor there. In 8 month he already had his firct job as junior Data Analyst.",
-          "Now Asan speaks of his decision to join thr course as the most important in his career."
+          "Gajinya naik 4 kali lipat dalam 3 tahun terakhir",
+          "Asan memulai karirnya dengan digital marketing, setelah lulus dari Universitas Diponegoro Semarang. Setelah 1,5 tahun dia meninggalkan pekerjaannya dan menyadari bahwa dia tidak ingin mencari pekerjaan baru di bidang ini. Jadi dia mulai belajar Analisis Data dengan video Youtube dan artikel di internet. Dalam 2 bulan ia memutuskan untuk mengikuti kursus penuh Analis Data pertamanya dan menemukan mentor di sana. Dalam 6 bulan dia sudah mendapatkan pekerjaan pertamanya sebagai Junior Data Analyst.",
+          "Sekarang Asan berbicara tentang keputusannya untuk bergabung dengan kursus sebagai yang paling penting dalam karirnya."
         ]
       }
     ]
